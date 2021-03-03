@@ -1,0 +1,1 @@
+Two-dimensional map of countries of the world color coded based on the number of years since the last snow.

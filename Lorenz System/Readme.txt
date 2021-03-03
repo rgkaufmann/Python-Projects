@@ -1,0 +1,1 @@
+Three dimensional model of generic Lorenz system.

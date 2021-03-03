@@ -1,0 +1,1 @@
+Basic interface to use for Dungeons and Dragons games.
