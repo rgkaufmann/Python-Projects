@@ -67,9 +67,10 @@ def getNextGrid(frames):
 # Use the above functions and constants to generate an animation for Conway's
 # Game of Life.
 Fig, Ax = plt.subplots()
-AnimateGrid = Ax.imshow(Grid * 255, animated=True, cmap = 'inferno')
+AnimateGrid = Ax.imshow(Grid * 255, animated=True, cmap = 'Set3')
 Animate = ani.FuncAnimation(Fig, getNextGrid, frames=NUMFRAMES, interval=IFPS,
                             blit=True)
+plt.axis('off')
 plt.show()
 
 # Disable the profiler and export the stats to a .txt file.
