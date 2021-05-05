@@ -1,1 +1,1 @@
-Basic game of life.
+Basic game of life. See https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life for rules of the game. This game begins with a grid of a size determined by user and the intial status of each cell is random.
