@@ -12,7 +12,7 @@ pr = cProfile.Profile()
 pr.enable()
 
 # Introduce constants.
-FPS = 150            # Time between frames in ms
+IFPS = 150            # Time between frames in ms
 NUMFRAMES = 50      # Number of frames created
 
 # Ask user for a the size of the square grid and generate the random seed.
@@ -67,8 +67,8 @@ def getNextGrid(frames):
 # Use the above functions and constants to generate an animation for Conway's
 # Game of Life.
 Fig, Ax = plt.subplots()
-AnimateGrid = Ax.imshow(Grid * 255, animated=True)
-Animate = ani.FuncAnimation(Fig, getNextGrid, frames=NUMFRAMES, interval=FPS,   #
+AnimateGrid = Ax.imshow(Grid * 255, animated=True, cmap = 'inferno')
+Animate = ani.FuncAnimation(Fig, getNextGrid, frames=NUMFRAMES, interval=IFPS,
                             blit=True)
 plt.show()
 
