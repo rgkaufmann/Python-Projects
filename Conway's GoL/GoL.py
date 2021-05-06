@@ -45,8 +45,9 @@ def getNumAliveNeighbours(grid):
 # Produces the next array in the series and returns it as an array.
 def updateGrid(grid):
     liveneighbours = getNumAliveNeighbours(grid)
-    conditional = np.logical_or(np.logical_and(liveneighbours == 2, grid == 1),
-                                np.logical_and(liveneighbours == 3, grid == 0),
+    conditional = np.logical_or(
+                  np.logical_or(np.logical_and(liveneighbours == 2, grid == 1),
+                                np.logical_and(liveneighbours == 3, grid == 0)),
                                 np.logical_and(liveneighbours == 3, grid == 1))
     grid = np.where(conditional, 1, 0)
     return grid
