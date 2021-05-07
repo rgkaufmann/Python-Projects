@@ -1,0 +1,70 @@
+Stats:
+Most races have a +2 and +1 stat, some get a choice for either one or multiple stats (human, half elf, changeling, Warforged, Simic Hybrid)
+
+Size:
+Mostly standard/descriptor. some races can count as one size larger for purposes of carrying capacity etc.
+
+Speed:
+All standard, with some races having swim, fly or climb speeds
+
+Speed Abilities:
+Aarakocra and Dwarves have some funky shit going on
+
+Age:
+Descriptor only, no mechanical worth
+
+Alignment:
+In constants file
+
+Languages:
+Most races get common and an additional language; some all you to pick languages.
+
+Skills (Abilities):
+Many races get proficiencies in some abilities, others get a choice from a given list or from any skill.
+Some races get advantage on specific checks in specific circumstances (i.e. dwarves and history checks about stonework, dwarves get proficiency in this or double proficiency if they already had proficiency.)
+
+Weapon Proficiencies:
+5 races get weapon proficiencies (Dwarfs, Elf, Githyanki, Half-Elf, Hobgoblin)
+Dwarves, Elves, and Githyanki are all specific to the subrace; Hobgoblins get proficiency in any two martial weapons
+Half-Elves get weapon proficiencies from a variant trait (Choose between skill, weapons, more speed, or better hiding)
+
+Armor Proficiencies:
+3 races get armor proficiencies
+Mountain Dwarfs (Light & Medium), Githyanki (Light & Medium), Hobgoblins (Light)
+
+Tool Proficiencies:
+3 races get a tool proficiency: Dwarf (all-subs) - get a choice from list, gnome(rock) - tinkers, satyr - instrument
+
+Saving Throws
+Some races get advantage against effects (poison, charm, magic)
+Kalashtar has adv. on all wis saves
+
+Creature Type:
+2 races are non-humanoids, both are Fey (Centaur and Satyr)
+
+Vision:
+Most races get Darkvision
+Drow, Duergar and Deep Gnomes
+
+AC:
+
+Unarmed Strike:
+ - Aarakocra (Talons)
+
+HP:
+
+Different Attack Types:
+
+Extra Actions:
+
+Extra Bonus Actions:
+
+Limited Use Other:
+
+Spellcasting:
+
+Resistances:
+
+Immunities (Conditions):
+
+Immunities (Damage):
