@@ -110,12 +110,13 @@ Gain proficiencies in specific weapons
  - Elf (Wood) => Elf Weapon Training
  - Half-Elf (Moon/Sun, Wood) => Elf Weapon Training [V]
  - Gith (Githyanki) => Matrial Prodigy
- - Hobgoblin => Martial Training
 Gain any number of proficiencies from martial weapons
+ - Hobgoblin => Martial Training
 
 Armor Proficiencies:
  - Dwarf (Mountain) => Dwarven Armor Training
  - Hobgoblin => Martial Training
+
 Tool Proficiencies:
 Gain a tool proficiency
  - Dwarf (All) => Tool Proficiency (List)
