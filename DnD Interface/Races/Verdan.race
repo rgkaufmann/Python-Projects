@@ -1,0 +1,72 @@
+Stats:
+0
+0
+1
+0
+0
+2
+0
+
+Size:
+1 - Small
+5 - Medium
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+Verdan reach adulthood at around the age of 24, and it is thought that they might live to nearly 200 years old. However, because no verdan has died of old age since the race's initial creation, their upper age limits remain subject to speculation.
+
+Type:
+Humanoid
+
+Vision:
+0
+
+Language:
+Common
+Goblin
++1
+
+Profs:
+[Persuasion]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+=Limited Telepathy
+You can telepathically speak to any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand your telepathy, but it must be able to understand at least one language. This process of communication is slow and limited, allowing you to transmit and receive only simple ideas and straightforward concepts.
+-Carrying
+-Movevment
+-Skills
+-Tools
+-Saves
+=Telepathic Insight
+Your mind's connection to the world around you strengthens your will. You have advantage on all Wisdom and Charisma saving throws.
+-Attack
+-Healing
+-Spells
+-Actions
+-BA
+-Reactions
+-Other
+=Black Blood Healing
+The black blood that is a sign of your people's connection to That-Which-Endures boosts your natural healing. When you roll a 1 or 2 on any Hit Die you spend at the end of a short rest, you can reroll the die and must use the new roll.

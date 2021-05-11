@@ -1,0 +1,69 @@
+Stats:
+0
+2
+0
+1
+0
+0
+0
+
+Size:
+1 - Medium
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+Kenku have shorter lifespans than humans. They reach maturity at about 12 years old and can live to 60.
+
+Type:
+Humanoid
+
+Vision:
+0
+
+Language:
+Common
+Auran
+
+Profs:
+2
+[Acrobatics, Deception, Stealth, Sleight of Hand]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+=Mimicry
+You can mimic sounds you have heard, including voices. A creature that hears the sounds can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.
+-Carrying
+-Movevment
+-Skills
+-Tools
+=Expert Forgery
+You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.
+-Saves
+-Attack
+-Healing
+-Spells
+-Actions
+-BA
+-Reactions
+-Other

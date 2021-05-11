@@ -7,35 +7,64 @@ Stats:
 0
 0
 
+Size:
+1 - Medium
+
 Speed:
 30
 0
 0
 0
+0
 
 Age:
-Bugbears reach adulthood at age 16 and live up to 80 years.
+Bugbears endure a harsh existence that demands each of them to remain self-sufficient, even at the expense of their fellows. They tend to be chaotic evil.
 
-Size:
-Bugbears are between 6 and 8 feet tall and weigh between 250 and 350 pounds. Your size is Medium.
+Type:
+Humanoid
+
+Vision:
+1
 
 Language:
 Common
 Goblin
 
-Proficiencies:
+Profs:
+[Stealth]
 
-Skills:
-Stealth
+AC:
+0
 
-Abilities:
-Darkvision - You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
-Long-Limbed - When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.
-Powerful Build - You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
-Surprise Attack - If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.
+HP:
+0
 
 Resistances:
+[]
 
-Immunities:
+ConditionImmune:
+[]
 
-Spells:
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+=Powerful Build
+You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+-Movement
+-Skills
+-Tools
+-Saves
+-Attack
+=Long-Limbed
+When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.
+=Surprise Attack{1/C}
+If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.
+-Healing
+-Spells
+-Actions
+-BA
+-Reactions
+-Other

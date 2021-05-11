@@ -1,0 +1,70 @@
+Stats:
+2
+0
+1
+0
+0
+0
+0
+
+Size:
+1 - Medium
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+Goliaths have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century.
+
+Type:
+Humanoid
+
+Vision:
+0
+
+Language:
+Common
+Giant
+
+Profs:
+[Athletics]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[Cold]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+=Powerful Build
+You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+-Movevment
+-Skills
+-Tools
+-Saves
+-Attack
+-Healing
+=Stone's Endurance{1/R}
+You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a d12. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest.
+-Spells
+-Actions
+-BA
+-Reactions
+-Other
+=Mountain Born
+You have resistance to cold damage. You're also acclimated to high altitude, including elevations above 20,000 feet.

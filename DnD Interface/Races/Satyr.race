@@ -1,0 +1,72 @@
+Stats:
+0
+1
+0
+0
+0
+2
+0
+
+Size:
+1 - Medium
+
+Speed:
+35
+0
+0
+0
+0
+
+Age:
+Satyrs mature and age at about the same rate as humans.
+
+Type:
+Fey
+
+Vision:
+0
+
+Language:
+Common
+Sylvan
+
+Profs:
+[Performance, Persuasion]
+1
+[Bagpipes, Drum, Dulcimer, Flute, Horn, Lute, Lyre, Pan Flute, Shawm, Viol]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movevment
+=Mirthful Leaps
+Whenever you make a long or high jump, you can roll a d8 and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal.
+-Skills
+-Tools
+-Saves
+=Magic Resistance
+You have advantage on saving throws against spells and other magical effects.
+-Attack
+=Ram
+You can use your head and horns to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to 1d4 + your Strength modifier.
+-Healing
+-Spells
+-Actions
+-BA
+-Reactions
+-Other

@@ -1,0 +1,69 @@
+Stats:
+2
+0
+1
+0
+0
+0
+0
+
+Size:
+1 - Medium
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+Orcs reach adulthood at age 12 and live up to 50 years.
+
+Type:
+Humanoid
+
+Vision:
+1
+
+Language:
+Common
+Orc
+
+Profs:
+2
+[Animal Handling, Insight, Intimidation, Medicine, Nature, Perception, Survival]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+=Powerful Build
+You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+-Movevment
+-Skills
+-Tools
+-Saves
+-Attack
+-Healing
+-Spells
+-Actions
+-BA
+=Aggressive
+As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started.
+-Reactions
+-Other
