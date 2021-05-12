@@ -1,0 +1,66 @@
+Stats:
+0
+0
+0
+0
+1
+0
+2 [DEX,CHA]
+
+Size:
+1 - Medium
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+Tieflings mature at the same rate as humans but live a few years longer.
+
+Type:
+Humanoid
+
+Vision:
+1
+
+Language:
+Common
+Infernal
+
+Profs:
+[]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[Fire]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movement
+-Skills
+-Tools
+-Saves
+-Attack
+-Healing
+-Spells
+=Devil's Tongue
+You know the vicious mockery cantrip. When your reach 3rd level, you can cast the charm person spell as a 2nd-level spell once with this trait. When you reach 5th level, you can cast the enthrall spell once with this trait. You must finish a long rest to cast these spells once again with this trait. Charisma is your spellcasting ability for them. This trait replaces the Infernal Legacy trait.
+-Actions
+-BA
+-Reactions
+-Other
