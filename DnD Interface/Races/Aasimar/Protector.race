@@ -1,0 +1,70 @@
+Stats:
+0
+0
+0
+1
+0
+2
+0
+
+Size:
+1 - Medium
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+Aasimar mature at the same rate as humans, but they can live up to 160 years.
+
+Type:
+Humanoid
+
+Vision:
+1
+
+Language:
+Common
+Celestial
+
+Profs:
+[]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[Necrotic, Radiant]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movement
+-Skills
+-Tools
+-Saves
+-Attack
+-Healing
+=Healing Hands
+As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest.
+-Spells
+=Light Bearer
+You know the light cantrip. Charisma is your spellcasting ability for it.
+-Actions
+=Radiant Soul
+Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level. Once you use this trait, you can't use it again until you finish a long rest.
+-BA
+-Reactions
+-Other
