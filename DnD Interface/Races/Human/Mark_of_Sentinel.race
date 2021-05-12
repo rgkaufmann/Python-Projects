@@ -1,0 +1,72 @@
+Stats:
+0
+0
+2
+1
+0
+0
+0
+
+Size:
+1 - Medium
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+Humans reach adulthood in their late teens and live less than a century.
+
+Type:
+Humanoid
+
+Vision:
+0
+
+Language:
+Common
++1
+
+Profs:
+[]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movement
+-Skills
+=Sentinel's Intuition
+When you make a Wisdom (Insight) or Wisdom (Perception) check, you can roll a d4 and add the number rolled to the ability check.
+-Tools
+-Saves
+-Attack
+-Healing
+-Spells
+=Guardian's Shield
+You can cast the shield spell once with this trait, and you regain the ability to cast it after you finish a long rest. Wisdom is your spellcasting ability for this spell.
+=Spells of the Mark
+If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Passage Spells table are added to the spell list of your spellcasting class. Mark of Sentinel Spells
+-Actions
+-BA
+-Reactions
+=Vigilant Guardian
+When a creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to swap places with that creature, and you are hit by the attack instead. Once you use this trait, you can't do so again until you finish a long rest
+-Other
