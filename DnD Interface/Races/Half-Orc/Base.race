@@ -1,0 +1,70 @@
+Stats:
+2
+0
+1
+0
+0
+0
+0
+
+Size:
+1 - Medium
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.
+
+Type:
+Humanoid
+
+Vision:
+1
+
+Language:
+Common
+Orc
+
+Profs:
+[]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movement
+-Skills
+=Menacing
+You gain proficiency in the Intimidation skill.
+-Tools
+-Saves
+-Attack
+=Savage Attacks
+Savage Attacks. When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.
+-Healing
+=Relentless Endurance
+When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.
+-Spells
+-Actions
+-BA
+-Reactions
+-Other

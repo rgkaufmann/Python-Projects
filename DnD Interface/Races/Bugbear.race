@@ -1,0 +1,70 @@
+Stats:
+2
+1
+0
+0
+0
+0
+0
+
+Size:
+1 - Medium
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+Bugbears endure a harsh existence that demands each of them to remain self-sufficient, even at the expense of their fellows. They tend to be chaotic evil.
+
+Type:
+Humanoid
+
+Vision:
+1
+
+Language:
+Common
+Goblin
+
+Profs:
+[Stealth]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+=Powerful Build
+You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
+-Movement
+-Skills
+-Tools
+-Saves
+-Attack
+=Long-Limbed
+When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.
+=Surprise Attack{1/C}
+If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.
+-Healing
+-Spells
+-Actions
+-BA
+-Reactions
+-Other

@@ -1,0 +1,70 @@
+Stats:
+0
+2
+0
+0
+0
+0
+0
+
+Size:
+1 - Small
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+Kobolds reach adulthood at age 6 and can live up to 120 years but rarely do so.
+
+Type:
+Humanoid
+
+Vision:
+1
+
+Language:
+Common
+Draconic
+
+Profs:
+[]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movevment
+-Skills
+=Sunlight Sensitivity
+You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.
+-Tools
+-Saves
+-Attack
+=Pack Tactics
+You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.
+-Healing
+-Spells
+-Actions
+=Govel, Cower, and Beg{1/R}
+As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that you can see. Once you use this trait, you can't use it again until you finish a short or long rest.
+-BA
+-Reactions
+-Other

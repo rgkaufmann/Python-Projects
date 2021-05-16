@@ -1,0 +1,74 @@
+Stats:
+0
+0
+0
+1
+2
+0
+0
+
+Size:
+1 - Medium
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+Vedalken mature slower than humans do, reaching maturity around age 40. Their life span is typically 350 years, with some living to the age of 500.
+
+Type:
+Humanoid
+
+Vision:
+0
+
+Language:
+Common
+Vedalken
++1
+
+Profs:
+1
+[Arcana, History, Investigation, Medicine, Performance, Sleight of Hand]
+1
+[Alchemist's Supplies, Brewer's Supplies, Calligrapher's Supplies, Carpenter's Tools, Cartographer's Tools, Cobbler's Tools, Cook's Utensils, Glassblower's Tools, Jeweler's Tools, Leatherworker's Tools, Mason's Tools, Painter's Supplies, Potter's Tools, Smith's Tools, Tinker's Tools, Weaver's Tols, Woodcarver's Tools, Disguise kit, Forgery Kit, Herbalism Kit, Bagpipes, Drum, Dulcimer, Flute, Lute, Lyre, Horn, Pan Flute, Shawm, Viol, Navigator's Tools, Poisoner's Kit, Thieves' Tools]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movevment
+-Skills
+=Tireless Precision
+You are proficient in one of the following skills of your choice: Arcana, History, Investigation, Medicine, Performance, or Sleight of Hand. You are also proficient with one tool of your choice. Whenever you make an ability check with the chosen skill or tool, roll a d4 and add the number rolled to the check's total.
+-Tools
+-Saves
+=Vedalken Dispassion
+You have advantage on all Intelligence, Wisdom, and Charisma saving throws.
+-Attack
+-Healing
+-Spells
+-Actions
+-BA
+-Reactions
+-Other
+=Partially Amphibious{1/LR}
+By absorbing oxygen through your skin, you can breathe underwater for up to 1 hour. Once you've reached that limit, you can't use this trait again until you finish a long rest.

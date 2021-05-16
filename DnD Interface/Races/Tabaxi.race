@@ -1,0 +1,68 @@
+Stats:
+0
+2
+0
+0
+0
+1
+0
+
+Size:
+1 - Medium
+
+Speed:
+30
+20
+0
+0
+0
+
+Age:
+Tabaxi have lifespans equivalent to humans.
+
+Type:
+Humanoid
+
+Vision:
+1
+
+Language:
+Common
++1
+
+Profs:
+[Perception, Stealth]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movevment
+=Feline Agility
+Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.
+-Skills
+-Tools
+-Saves
+-Attack
+=Cat's Claws
+Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+-Healing
+-Spells
+-Actions
+-BA
+-Reactions
+-Other

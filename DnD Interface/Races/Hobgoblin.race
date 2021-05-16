@@ -1,0 +1,68 @@
+Stats:
+0
+0
+2
+0
+1
+0
+0
+
+Size:
+1 - Medium
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs.
+
+Type:
+Humanoid
+
+Vision:
+1
+
+Language:
+Common
+Goblin
+
+Profs:
+[Light Armor]
+2
+[Battleaxe, Blowgun, Flail, Glaive, Greataxe, Greatsword, Halbred, Hand Crossbow, Heavy Crossbow, Lance, Longbow, Longsword, Maul, Morningstar, Net, Pike, Rapier, Scimitar, Shortsword, Trident, War Pick, Warhammer, Whip]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movevment
+-Skills
+-Tools
+-Saves
+-Attack
+-Healing
+-Spells
+-Actions
+-BA
+-Reactions
+-Other
+=Saving Face{1/R}
+Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest.

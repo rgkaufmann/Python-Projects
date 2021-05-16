@@ -1,0 +1,69 @@
+Stats:
+0
+1
+0
+0
+2
+0
+0
+
+Size:
+1 - Small
+
+Speed:
+25
+0
+0
+0
+0
+
+Age:
+Deep gnomes are short-lived for gnomes. They mature at the same rate humans do and are considered full-grown adults by 25. They live 200 to 250 years, although hard toil and the dangers of the Underdark often claim them before their time.
+
+Type:
+Humanoid
+
+Vision:
+2
+
+Language:
+Common
+Gnomish
+Undercommon
+
+Profs:
+[]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movement
+-Skills
+=Stone Camouflage
+You have advantage on Dexterity (Stealth) checks to hide in rocky terrain.
+-Tools
+-Saves
+=Gnome Cunning
+You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.
+-Attack
+-Healing
+-Spells
+-Actions
+-BA
+-Reactions
+-Other

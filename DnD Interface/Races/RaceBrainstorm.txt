@@ -1,0 +1,365 @@
+Stats:
+Most races have a +2 and +1 stat, some get a choice for either one or multiple stats (human, half elf, changeling, Warforged, Simic Hybrid)
+
+Size:
+Mostly standard/descriptor. some races can count as one size larger for purposes of carrying capacity etc.
+ - Verdan => changes size at 5th level
+
+Speed:
+All standard, with some races having swim, fly or climb speeds
+
+Age:
+Descriptor only, no mechanical worth
+
+Alignment:
+In constants file
+
+Languages:
+Most races get common and an additional language; some allow you to pick languages.
+ - Verdan => Limited Telepathy
+ - Triton => Emissary of the Sea
+ - Elf (Sea) => Friend of the Sea
+ - Firbolg => Speech of Beast and Leaf
+ - Gnome (Forest) => Speak with Small Beasts
+ - Halfling (Ghostwise) => Silent Speech
+ - Kalashtar => Mind Link
+ - Kenku => Mimicry
+
+Speed Abilities:
+ - Aarakocra => Flight (Cannot with Heavy/Medium Armor)
+ - Centaur => Equine Build (Extra movement when climbing)
+ - Dwarf (All) => Speed (No reduced speed by Heavy Armor)
+ - Elf (Wood) => Fleet of Foot (+5ft)
+ - Genasi (Earth) => Earth Walk (No extra movement on earth/stone difficult terrain)
+ - Genasi (Water) => Swim (Swim speed)
+ - Half-Elf (Aquatic) => Swim (Swim speed) [V]
+ - Half-Elf (Wood) => Fleet of Foot (+5ft) [V]
+ - Tiefling (Winged [V]) => Winged (cannot with Heavy armor)
+ - Tabaxi => Feline Agility (duple speed for a turn)
+ - Tabaxi => Cat's Claws (Climb)
+ - Simic Hybrid => Animal Enhancement - Manta Glide (slow fall with horiz. movement?) [V]
+ - Simic Hybrid => Animal Enhancement - Nimble Climber (climb) [V]
+ - Simic Hybrid => Animal Enhancement - Underwater Adaption (swim) [V]
+ - Halfling (Lotusden) => Timberwalk (No extra movements w difficult terrain)
+ - Shifter (Swiftstride) => Shifting Feature (extra walking)
+ - Lizardfolk => Swim Speed
+ - Satyr => Mirthful Leaps (extra jump dist.)
+ - Human (Mark of Passage) => Courier's Speed (+5ft)
+
+ Carrying Capacity:
+  - Bugbear => Powerful Build [$]
+  - Centaur => Equine Build [$]
+  - Firbolg => Powerful Build [$]
+  - Goliath => Powerful Build [$]
+  - Loxodon => Powerful Build [$]
+  - Sad Orc => Powerful Build [$]
+
+Skills (Abilities):
+Proficiency in ability
+ - Bugbear => Sneaky (Stl)
+ - Centaur => Survivor (List)
+ - Elf (All) => Keen Senses (Perc)
+ - Half-Elf (Aquatic, Moon/Sun, Wood, Drow) => Skill Versatility (Any) [V]
+ - Half-Elf (Aquatic, Drow, Moon/Sun, Wood) => Keen Senses (Perc) [V]
+ - Warforged => Specialized Design (Any)
+ - Verdan => Persuasive (Peru)
+ - Vedalken => Tireless Precision (list)
+ - Half-Orc (PHB) => Menacing (intimid)
+ - Gith (Githyanki) => Decadent Mastery (Tool or Skill)
+ - Goliath => Natural Athlete (Athl)
+ - Tabaxi => Cat's Talents (Peru, Stl)
+ - Shifter (Beasthide) => Natural Athlete (ath)
+ - Shifter (Longtooth) => Fierce (intim)
+ - Shifter (Swiftstride) => Graceful (acro)
+ - Shifter (Wildhunt) => Natural Tracker (surv)
+ - Kenku => Kenku Training (2 from list)
+ - Leonin => Hunter's Instincts (List)
+ - Lizardfolk => Hunter's Lore (2 from list)
+ - Satyr => Reveler (Perf, Peru)
+ - Orc => Primal Intuition (2 from list)
+ - Minotaur => Imposing Presence (Intim or Peru)
+ - Human (Variant) => Skills (any)
+Advantage/Disadvantage on a skill in certain situations
+ - Dragonborn (Draconblood) => Forceful Presence
+ - Dwarf (All) => Stonecunning
+ - Dwarf (Duergar) => Sunlight Sensitivity
+ - Elf (Drow) => Sunlight Sensitivity
+ - Elf (Pallid) => Incisive Sense (Invest, Insight)
+ - Gnome (Deep) => Stone Camouflage (Stl)
+ - Kenku => Expert Forgery
+ - Kobold => Sunlight Sensitivity
+ - Shifter (Wildhunt) => Shifting Feature (adv. WIS checks)
+ - Loxodon => Keen Smell (Perc, Surv, Invest)
+Modifier to an ability check
+ - Elf (Mark of Shadows) => Cunning Intuition (Perf, Stl) [1d4]
+ - Half-Elf (Mark of Detection) => Deductive Intuition (Invest, Insight) [1d4]
+ - Vedalken => Tireless Precision [1d4]
+ - Half-Elf (Mark of Storm) => Windwright's Intuition (Acroba) [1d4]
+ - Half-Orc (Mark of Finding) => Hunter's Intuition (Percep, Survi) [1d4]
+ - Gnome (Rock) => Artificer's Lore (History) [2x Prof]
+ - Halfling (Mark of Healing) => Medical Intuition [1d4]
+ - Halfling (Mark of Hospitality) => Ever Hospitable (Pers) [1d4]
+ - Human (All Marks) => Various Names (Various Skills) [1d4]
+
+Weapon Proficiencies:
+Gain proficiencies in specific weapons
+ - Dwarf (All) => Dwarven Combat Training
+ - Elf (Drow) => Drow Weapon Training
+ - Elf (High) => Elf Weapon Training
+ - Elf (Sea) => Sea Elf Training
+ - Elf (Wood) => Elf Weapon Training
+ - Half-Elf (Moon/Sun, Wood) => Elf Weapon Training [V]
+ - Gith (Githyanki) => Matrial Prodigy
+Gain any number of proficiencies from martial weapons
+ - Hobgoblin => Martial Training
+
+Armor Proficiencies:
+ - Dwarf (Mountain) => Dwarven Armor Training
+ - Hobgoblin => Martial Training
+
+Tool Proficiencies:
+Gain a tool proficiency
+ - Dwarf (All) => Tool Proficiency (List)
+ - Warforged => Specialized Design (any)
+ - Vedalken => Tireless Precision (any)
+ - Gith (Githyanki) => Decadent Mastery (Tool or Skill)
+ - Gnome (Rock) => Tinker (Tinker's Tools)
+ - Satyr => Reveler (Instrument)
+ - Human (Mark of Making) => Maker's Gift (any)
+Modifier to a roll with tools
+ - Dwarf (Mark of Warding) => Warder's Intuition [1d4]
+ - Vedalken => Tireless Precision [1d4]
+ - Gnome (Mark of Scribing) => Gifted Scribe [1d4]
+Special tool abilities
+ - Gnome (Rock) => Tinker
+
+Saving Throws
+Advantage/Disadvantage against an effect/condition
+ - Dwarf (Duergar) => Duergar Resilience (Poison, Charmed, Paralysis, Illusions)
+ - Dwarf (Hill) => Dwarven Resilience (Poison)
+ - Dwarf (Mark of Warding) => Dwarven Resilience (Poison)
+ - Dwarf (Mountain) => Dwarven Resilience (Poison)
+ - Elf (All) => Fey Ancestry (Charmed)
+ - Half-Elf (All) => Fey Ancestry (Charmed)
+ - Yuan-ti Pureblood => Magic Resistance (Magic)
+ - Warforged => Constructed Resilience (Poison)
+ - Gith (Githzerai) => Mental Discipline (Charmed, Frightened)
+ - Gnome (All) => Gnome Cunning (Int/Wis/Cha against Magic)
+ - Halfling (All) => Brave (Frightened)
+ - Satyr => Magic Resistance (Magic)
+ - Loxodon => Loxodon Serenity (Charmed, Frightened)
+ - Halfling (Stout) => Stout Resilience (Poison)
+Advantage/Disadvantage with all saves of a particular stats
+ - Verdan => Telepathic Insight (WIS, CHA)
+ - Vedalken => Vedalken Dispassion (INT, WIS, CHA)
+ - Kalashtar => Dual Mind (WIS)
+
+Creature Type:
+ - Centaur => Fey
+ - Satyr => Fey
+
+Vision:
+ - Aasimar (All) => Darkvision
+ - Bugbear => Darkvision
+ - Dragonborn (Draconblood) => Darkvision
+ - Dragonborn (Ravenite) => Darkvision
+ - Dwarf (Duergar) => Superior Darkvision
+ - Dwarf (Hill) => Darkvision
+ - Dwarf (Mark of Warding) => Darkvision
+ - Dwarf (Mountain) => Darkvision
+ - Elf (Drow) => Superior Darkvision
+ - Elf (Eladrin) => Darkvision
+ - Elf (High) => Darkvision
+ - Elf (Mark of Shadow) => Darkvision
+ - Elf (Pallid) => Darkvision
+ - Elf (Sea) => Darkvision
+ - Elf (Shadar-Kai) => Darkvision
+ - Elf (Wood) => Darkvision
+ - Genasi (Fire) => Darkvision
+ - Gnome (Deep) => Superior Darkvision
+ - Gnome (Forest) => Darkvision
+ - Gnome (Mark of Scribing) => Darkvision
+ - Gnome (Rock) => Darkvision
+ - Goblin => Darkvision
+ - Yuan-ti Pureblood => Darkvision
+ - Triton => Darkvision
+ - Half-Elf (all) => Darkvision
+ - Tiefling (all) => Darkvision
+ - Tabaxi => Darkvision
+ - Half-Orc (all) => Darkvision
+ - Simic Hybrid => Darkvision
+ - Shifter (All) => Darkvision
+ - Kobold => Darkvision
+ - Leonin => Darkvision
+ - Orc => Darkvision
+ - Hobgoblin => Darkvision
+ - Human (Mark of Finding) => Darkvision
+
+AC:
+ - Warforged => Integrated Protection (+1)
+ - Simic Hybrid => Animal Enhancement - Carapace (+1, when not wearing heavy armor) [V2]
+ - Shifter (Beasthide) => Shifting Feature (+1)
+ - Lizardfolk => Natural Armor
+ - Loxodon => Natural Armor
+
+Unarmed Strike:
+ - Aarakocra => Talons (1d4 sls)
+ - Centaur => Hooves (1d4 blg)
+ - Tabaxi => Cat's Claws (1d4 sls)
+ - Simic Hybrid => Animal Enhancement - Grappling Appendage (1d6 blg) [V2]
+ - Shifter (Longtooth) => Shifting Feature (1d6 prc)
+ - Leonin => Claws (1d4 sls)
+ - Lizardfolk => Bite (1d6 prc)
+ - Satyr => Ram (1d4 blg)
+ - Minotaur => Horns (1d6 prc)
+
+HP:
+ - Dwarf (Hill) => Dwarven Toughness
+ - Shifter (Beasthide) => Shifting Feature (Temp. HP)
+
+Different Attack Types:
+ - Bugbear => Long-Limbed
+ - Bugbear => Surprise Attack
+ - Centaur => Charge
+ - Half-Orc (PHB) => Savage Attacks
+ - Kobold => Pack Tactics
+ - Minotaur => Goring Rush
+
+Extra Actions:
+ - Aasimar (All) => Healing Hands (inc. damage with level)
+ - Aasimar (Fallen) => Necrotic Shroud (inc. damage with level)
+ - Aasimar (Protector) => Radiant Soul (inc. damage with level)
+ - Aasimar (Scourge) => Radiant Consumption (inc. damage with level)
+ - Dragonborn (All) => Breath Weapon (inc. damage with level)
+ - Simic Hybrid => Animal Enhancement - Grappling Appendage [V2]
+ - Simic Hybrid => Animal Enhancement - Acid Spit (inc. damage with level) [V2]
+ - Kobold => Grovel, Cower, and Beg
+
+Extra Bonus Actions:
+ - Elf (Eladrin) => Fey Step
+ - Elf (Shadar-Kai) => Blessing of the Raven Queen
+ - Firbolg => Hidden Step
+ - Simic Hybrid => Animal Enhancement - Grappling Appendage [V2]
+ - Goblin => Nimble Escape
+ - Shifter (All) => Shifting (LU)
+ - Shifter (Longtooth) => Shifting Feature (Unarmed Attack)
+ - Leonin => Daunting Roar
+ - Lizardfolk => Hungry Jaws
+ - Orc => Agressive (move)
+ - Minotaur => Hammering Horns
+
+Extra Reactions:
+ - Dragonborn (Ravenite) => Vengeful Assault
+ - Goliath => Stone's Endurance
+ - Shifter (Swiftstride) => Shifting Feature (move)
+ - Human (Mark of Sentinel) => Vigilant Guardian [LU]
+
+Limited Use Other:
+- Half-Orc (PHB) => Relentless Endurance
+- Goblin => Fury of the Small
+- Hobgoblin => Saving Face
+
+Spellcasting:
+Some races gain spells from their race
+ - Aasimar (All) => Lightbearer (1)
+ - Dwarf (Duergar) => Duergar Magic (3-leveled)
+ - Yuan-ti Pureblood => Innate Spellcasting (3-leveled, restrictions)
+ - Dwarf (Mark of Warding) => Wards and Seals (3-leveled)
+ - Elf (Drow) => Drow Magic (3-leveled)
+ - Elf (High) => Cantrip (1)
+ - Elf (Mark of Shadows) => Shape Shadows (2-leveled)
+ - Elf (Pallid) => Blessing of the Moon Weaver (3-leveled)
+ - Firbolg => Firbolg Magic (2)
+ - Genasi (Air) => Mingle with the Wind (1)
+ - Genasi (Earth) => Merge with Stone (1)
+ - Genasi (Fire) => Reach to the Blaze (2-leveled)
+ - Genasi (Water) => Call to the Wave (2-leveled)
+ - Half-Elf (Drow) => Drow Magic (3-leveled) [V]
+ - Half-Elf (Mark of Detection) => Magical Detection (3-leveled)
+ - Half-Elf (Moon/ Sun) => Cantrip [V]
+ - Triton => Control Air and Water (3-leveled)
+ - Half-Elf (Mark of Storm) => Headwinds (3-leveled)
+ - Tiefling (all-winged [v]) => Various Names (3-leveled)
+ - Gith (Githyanki) => Githyanki Psionics (3-leveled)
+ - Gith (Githzerai) => Githzerai Psionics (3-leveled)
+ - Gnome (Mark of Scribing) => Scribe's Insight (3-leveled)
+ - Gnome (Forest) => Natural Illusionist (1)
+ - Half-Orc (Mark of Finding) => Finder's Magic (3-leveled)
+ - Halfling (Lotusden) => Child of the Wood (3, 5 leveled)
+ - Halfling (Mark of Healing) => Healing Touch (3-leveled)
+ - Halfling (Mark of Hospitality) => Innkeeper's Magic
+ - Human (Mark of Finding) => Finder's Magic (2-leveled)
+ - Human (Mark of Handling) => Primal Connection (2)
+ - Human (Mark of Handling) => The Bigger They Are (changes spell from primal connection slightly)
+ - Human (Mark of Making) => Spellsmith (2, special)
+ - Human (Mark of Passage) => Magical Passage (1)
+ - Human (mark of Sentinel) => Guardian's Shield (1)
+Some races get access to an additional spell list:
+ - Dwarf (Mark of Warding) => Spells of the Mark
+ - Elf (Mark of Shadows) => Spells of the Mark
+ - Half-Elf (Mark of Detection, Mark of Storm) => Spells of the Mark
+ - Half-Orc (Mark of Finding) => Spells of the Mark
+ - Gnome (Mark of Scribing) => Spells of the Mark
+ - Halfling (Mark of Healing, Mark of Hospitality) => Spells of the Mark
+ - Human (All Marks) => Spells of the Mark
+
+Resistances:
+ - Aasimar (All) => Celestial Resistance (Nec/Rad)
+ - Dragonborn (PHB) => Damage Resistance
+ - Dwarf (Duergar) => Duergar Resilience (Poi)
+ - Dwarf (Hill) => Dwarven Resilience (Poi)
+ - Dwarf (Mark of Warding) => Dwarven Resilience (Poi)
+ - Dwarf (Mountain) => Dwarven Resilience (Poi)
+ - Warforged => Constructed Resilience (Poi)
+ - Triton => Guardian of the Depths (Cold)
+ - Tiefling (All) => Hellish Resistance (Fire)
+ - Elf (Shadar-Kai) => Necrotic Resistance
+ - Genasi (Fire) => Fire Resistance
+ - Genasi (Water) => Acid Resistance
+ - Half-Elf (Mark of Storm) => Storm's Boon (lightning)
+ - Goliath => Mountain Born (Cold)
+ - Kalashtar => Mental Discipline (Psy)
+ - Halfling (Stout) => Stout Resilience (Poi)
+
+Immunities (Conditions):
+ - Elf (All) => Fey Ancestry (Sleep via magic)
+ - Half-Elf (All) => Fey Ancestry (Sleep via magic)
+ - Yuan-ti Pureblood => Poison Immunity
+ - Warforged => Constructed Resilience (disease, sleep via magic)
+ - Kalashtar => Severed from Dreams (Dreams via magic, but not sleep)
+
+Immunities (Damage):
+ - Yuan-ti Pureblood => Poison Immunity
+
+Other:
+ - Dragonborn (All) => Draconic Ancestry (Colour pick)
+ - Warforged => Constructed Resilience (Don't need to eat/drink (weird shit))
+ - Warforged => Integrated Protection (weird armor shit)
+ - Verdan => Black Blood Healing (SR hit die re-roll shit)
+ - Elf (Wood) => Mask of the Wild (Weird hiding shit)
+ - Half-Elf (Wood) => Mask of the Wild (Weird hiding shit) [V]
+ - Tiefling (Variants) => Appearance (look different?)
+ - Simic Hybrid => Animal Enhancement (get an option at level 1 and another at level 5: expanded list)
+ - Halfling (All) => Lucky (rolling shit)
+ - Halfling (All) => Halfling Nimbleness
+ - Halfling (Lightfoot) => Naturally Stealthy (hiding)
+ - Halfling (Lotusden) => Timberwalk
+ - Shifter (Wildhunt) => Shifting Feature (weird shit with other people attacking you)
+ - Lizardfolk => Cunning Artisan
+ - Loxodon => Trunk
+ - Human (Variant) => Feat
+
+Sleeping:
+ - Elf (All) => Trance (4Hr LR)
+ - Warforged => Constructed Resilience (No Sleep)
+ - Kalashtar => Severed from Dreams (Weird dreams)
+
+Breathing:
+ - Warforged => Constructed Resilience (none)
+ - Vedalken => Partially Amphibious
+ - Triton => Amphibious
+ - Elf (Sea) => Child of the Sea
+ - Genasi (Air) => Unending Breath
+ - Genasi (Water) => Amphibious
+ - Simic Hybrid => Animal Enhancement - Underwater Adaption [V]
+ - Lizardfolk => Hold Breath

@@ -1,0 +1,70 @@
+Stats:
+2
+0
+2
+0
+0
+0
+0
+
+Size:
+1 - Medium
+
+Speed:
+25
+0
+0
+0
+0
+
+Age:
+Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.
+
+Type:
+Humanoid
+
+Vision:
+1
+
+Language:
+Common
+Dwarvish
+
+Profs:
+[Battleaxe, Handaxe, Light Hammer, Warhammer, Light Armor, Medium Armor]
+1
+[Smith's Tools, Brewer's Supplies, Mason's Tools]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[Poison]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movement
+-Skills
+=Stonecunning
+Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.
+-Tools
+-Saves
+=Dwarven Resilience
+You have advantage on saving throws against poison, and you have resistance against poison damage.
+-Attack
+-Healing
+-Spells
+-Actions
+-BA
+-Reactions
+-Other

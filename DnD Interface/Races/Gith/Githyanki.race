@@ -1,0 +1,68 @@
+Stats:
+2
+0
+0
+0
+1
+0
+0
+
+Size:
+1 - Medium
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+Gith reach adulthood in their late teens and live for about a century.
+
+Type:
+Humanoid
+
+Vision:
+0
+
+Language:
+Common
+Gith
+
+Profs:
+[Light Armor, Medium Armor, Shortsword, Longsword, Greatsword]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movement
+-Skills
+-Tools
+-Saves
+-Attack
+-Healing
+-Spells
+=Githyanki Psionics
+You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait. When you reach 3rd level, you can cast jump once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the misty step spell once with this trait, and you regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.
+-Actions
+-BA
+-Reactions
+-Other
+=Decadent Mastery
+You learn one language of your choice, and you are proficient with one skill or tool of your choice. In the timeless city of Tu'narath, githyanki have bountiful time to master odd bits of knowledge.

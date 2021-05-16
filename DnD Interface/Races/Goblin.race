@@ -1,0 +1,68 @@
+Stats:
+0
+2
+1
+0
+0
+0
+0
+
+Size:
+1 - Small
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+Goblins reach adulthood at age 8 and live up to 60 years.
+
+Type:
+Humanoid
+
+Vision:
+1
+
+Language:
+Common
+Goblin
+
+Profs:
+[]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movement
+-Skills
+-Tools
+-Saves
+-Attack
+=Fury of the Small{1/R}
+When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest.
+-Healing
+-Spells
+-Actions
+-BA
+=Nimble Escape
+You can take the Disengage or Hide action as a bonus action on each of your turns.
+-Reactions
+-Other

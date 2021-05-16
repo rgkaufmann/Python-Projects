@@ -1,0 +1,72 @@
+Stats:
+0
+2
+0
+0
+0
+1
+0
+
+Size:
+1 - Medium
+
+Speed:
+25
+0
+0
+0
+0
+
+Age:
+A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.
+
+Type:
+Humanoid
+
+Vision:
+0
+
+Language:
+Common
+Halfling
+
+Profs:
+[]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movement
+=Halfling Nimbleness
+You can move through the space of any creature that is of a size larger than yours.
+=Naturally Stealthy
+You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.
+-Skills
+-Tools
+-Saves
+=Brave
+You have advantage on saving throws against being frightened.
+-Attack
+-Healing
+-Spells
+-Actions
+-BA
+-Reactions
+-Other
+=Lucky
+When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.

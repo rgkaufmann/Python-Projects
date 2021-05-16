@@ -1,0 +1,73 @@
+Stats:
+0
+0
+2
+0
+0
+0
+1
+
+Size:
+1 - Medium
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+A typical warforged is between two and thirty years old. The maximum warforged lifespan remains a mystery; so far, warforged have shown no signs of deterioration due to age. You are immune to magical aging effects.
+
+Type:
+Humanoid
+
+Vision:
+0
+
+Language:
+Common
++1
+
+Profs:
+1
+[Acrobatics, Animal Handling, Arcana, Athletics, Deception, History, Insight, Intimidation, Investigation, Medicine, Nature, Perception, Performance, Persuasion, Religion, Sleight of Hand, Stealth, Survival]
+1
+[Alchemist's Supplies, Brewer's Supplies, Calligrapher's Supplies, Carpenter's Tools, Cartographer's Tools, Cobbler's Tools, Cook's Utensils, Glassblower's Tools, Jeweler's Tools, Leatherworker's Tools, Mason's Tools, Painter's Supplies, Potter's Tools, Smith's Tools, Tinker's Tools, Weaver's Tols, Woodcarver's Tools, Disguise kit, Forgery Kit, Herbalism Kit, Bagpipes, Drum, Dulcimer, Flute, Lute, Lyre, Horn, Pan Flute, Shawm, Viol, Navigator's Tools, Poisoner's Kit, Thieves' Tools]
+
+AC:
++1
+
+HP:
+0
+
+Resistances:
+[Poison]
+
+ConditionImmune:
+[Disease, Magic Sleep]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movevment
+-Skills
+-Tools
+-Saves
+-Attack
+-Healing
+-Spells
+-Actions
+-BA
+-Reactions
+-Other
+=Constructed Resilience
+You were created to have remarkable fortitude, represented by the following benefits. You have advantage on saving throws against being poisoned, and you have resistance to poison damage. You don't need to eat, drink, or breathe. You are immune to disease. You don't need to sleep, and magic can't put you to sleep.
+=Sentry's Rest
+When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you unconscious, and you can see and hear as normal.
+=Integrated Protection
+Your body has built-in defensive layers, which can be enhanced with armor. You gain a +1 bonus to Armor Class (automatically added). You can don only armor with which you have proficiency. To don armor other than a shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way. While you live, the armor incorporated into your body can't be removed against your will.
