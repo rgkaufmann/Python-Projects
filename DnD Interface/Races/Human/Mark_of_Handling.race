@@ -1,0 +1,72 @@
+Stats:
+0
+0
+0
+2
+0
+0
+1
+
+Size:
+1 - Medium
+
+Speed:
+30
+0
+0
+0
+0
+
+Age:
+Humans reach adulthood in their late teens and live less than a century.
+
+Type:
+Humanoid
+
+Vision:
+0
+
+Language:
+Common
++1
+
+Profs:
+[]
+
+AC:
+0
+
+HP:
+0
+
+Resistances:
+[]
+
+ConditionImmune:
+[]
+
+DamageImmune:
+[]
+
+Abilities:
+-Language
+-Carrying
+-Movement
+-Skills
+=Wild Intuition
+When you make a Wisdom (Animal Handling) or Intelligence (Nature) check, you can roll a d4 and add the number rolled to the ability check.
+-Tools
+-Saves
+-Attack
+-Healing
+-Spells
+=Primal Conection
+You can cast the animal friendship and speak with animals spells with this trait, requiring no material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a short or long rest. Wisdom is your spellcasting ability for these spells.
+=Spells of the Mark
+If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Finding Spells table are added to the spell list of your spellcasting class. Mark of Handling Spells
+-Actions
+-BA
+-Reactions
+-Other
+=The Bigger They Are
+Starting at 3rd level, you can target a beast or monstrosity when you cast animal friendship or speak with animals, provided the creature's Intelligence score is 3 or lower.
