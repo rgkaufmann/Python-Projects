@@ -29,6 +29,7 @@ Vision:
 Language:
 Common
 Elvish
++1
 
 Profs:
 []
@@ -50,8 +51,6 @@ DamageImmune:
 
 Abilities:
 -Language
-=Extra language
-You can read, speak, and write one extra language of your choice.
 -Carrying
 -Movement
 -Skills

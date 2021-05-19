@@ -29,6 +29,7 @@ Vision:
 Language:
 Common
 Elvish
++1
 
 Profs:
 [Longsword, Rapier, Shortsword, Shortbow, Longbow]
@@ -50,8 +51,6 @@ DamageImmune:
 
 Abilities:
 -Language
-=Extra Language
-You can speak, read, and write one extra language of your choosing.
 -Carrying
 -Movement
 -Skills
