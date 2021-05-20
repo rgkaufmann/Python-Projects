@@ -6,19 +6,14 @@ Hit Die:
 1d8
 
 Armor:
-Light
-Medium
-Shields
+[Light, Medium, Shields]
 
 Weapon:
-Simple
+[Simple]
 
 Tool:
+[]
 
 Skills:
 2
-History
-Insight
-Medicine
-Persuasion
-Religion
+[History, Insight, Medicine, Persuasion, Religion]

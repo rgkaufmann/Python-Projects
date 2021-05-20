@@ -6,31 +6,14 @@ Hit Die:
 1d8
 
 Armor:
-Light
-Medium
+[Light, Medium]
 
 Weapon:
-Clubs
-Daggers
-Darts
-Javelins
-Maces
-Quarterstaffs
-Scimitars
-Sickles
-Slings
-Spears
+[Club, Dagger, Dart, Javelin, Mace, Quarterstaff, Scimitar, Sickle, Sling, Spear]
 
 Tool:
-Herbalism Kit
+[Herbalism Kit]
 
 Skills:
 2
-Arcana
-Animal Handling
-Insight
-Medicine
-Nature
-Perception
-Religion
-Survival
+[Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, Survival]

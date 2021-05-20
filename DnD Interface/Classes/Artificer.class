@@ -6,25 +6,16 @@ Hit Die:
 1d8
 
 Armor:
-Light
-Medium
+[Light, Medium]
 
 Weapon:
-Simple
-Hand Crossbow
-Heavy Crossbow
+[Simple, Hand Crossbow, Heavy Crossbow]
 
 Tool:
-Thieves' Tools
-+2
+[Thieves' Tools]
+2
+[Alchemist's Supplies, Brewer's Supplies, Calligrapher's Supplies, Carpenter's Tools, Cartographer's Tools, Cobbler's Tools, Cook's Utensils, Glassblower's Tools, Jeweler's Tools, Leatherworker's Tools, Mason's Tools, Painter's Supplies, Potter's Tools, Smith's Tools, Tinker's Tools, Weaver's Tols, Woodcarver's Tools, Disguise kit, Forgery Kit, Herbalism Kit, Bagpipes, Drum, Dulcimer, Flute, Lute, Lyre, Horn, Pan Flute, Shawm, Viol, Navigator's Tools, Poisoner's Kit, Thieves' Tools]
 
 Skills:
 3
-Arcana
-Deception
-History
-Investigation
-Medicine
-Nature
-Religion
-Sleight of Hand
+[Arcana, Deception, History, Investigation, Medicine, Nature, Religion, Sleight of Hand]

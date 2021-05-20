@@ -6,21 +6,14 @@ Hit Die:
 1d12
 
 Armor:
-Light
-Medium
-Shields
+[Light, Medium, Shields]
 
 Weapon:
-Simple
-Martial
+[Simple, Martial]
 
 Tool:
+[]
 
 Skills:
 2
-Animal Handling
-Athletics
-Intimidation
-Nature
-Perception
-Survival
+[Animal Handling, Athletics, Intimidation, Nature, Perception, Survival]

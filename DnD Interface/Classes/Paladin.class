@@ -6,22 +6,14 @@ Hit Die:
 1d10
 
 Armor:
-Light
-Medium
-Heavy
-Shields
+[Light, Medium, Heavy, Shields]
 
 Weapon:
-Simple
-Martial
+[Simple, Martial]
 
 Tool:
+[]
 
 Skills:
 2
-Athletics
-Insight
-Intimidation
-Medicine
-Persuasion
-Religion
+[Athletics, Insight, Intimidation, Medicine, Persuasion, Religion]

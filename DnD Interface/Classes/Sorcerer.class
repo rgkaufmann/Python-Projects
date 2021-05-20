@@ -6,21 +6,14 @@ Hit Die:
 1d6
 
 Armor:
+[]
 
 Weapon:
-Dagger
-Dart
-Sling
-Quarterstaff
-Light Crossbow
+[Dagger, Dart, Sling, Quarterstaff, Light Crossbow]
 
 Tool:
+[]
 
 Skills:
 3
-Arcana
-Deception
-Insight
-Intimidation
-Persuasion
-Religion
+[Arcana, Deception, Insight, Intimidation, Persuasion, Religion]

@@ -6,27 +6,15 @@ Hit Die:
 1d8
 
 Armor:
-Light
+[Light]
 
 Weapon:
-Simple
-Hand Crossbow
-Longsword
-Rapier
-Shortsword
+[Simple, Hand Crossbow, Longsword, Rapier, Shortsword]
 
 Tool:
 3
-Bagpipes
-Drum
-Dulcimer
-Flute
-Horn
-Lute
-Lyre
-Pan Flute
-Shawm
-Viol
+[Bagpipes, Drum, Dulcimer, Flute, Horn, Lute, Lyre, Pan Flute, Shawm, Viol]
 
 Skills:
-+3
+3
+['Acrobatics', 'Animal Handling', 'Arcana', 'Athletics', 'Deception', 'History', 'Insight', 'Intimidation', 'Investigation', 'Medicine', 'Nature', 'Perception', 'Performance', 'Persuasion', 'Religion', 'Sleight of Hand', 'Stealth', 'Survival']

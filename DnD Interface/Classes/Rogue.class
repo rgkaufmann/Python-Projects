@@ -6,28 +6,14 @@ Hit Die:
 1d8
 
 Armor:
-Light
+[Light]
 
 Weapon:
-Simple
-Hand Crossbow
-Longsword
-Shortsword
-Rapier
+[Simple, Hand Crossbow, Longsword, Shortsword, Rapier]
 
 Tool:
-Thieves' Tools
+[Thieves' Tools]
 
 Skills:
 3
-Acrobatics
-Athletics
-Deception
-Insight
-Intimidation
-Investigation
-Perception
-Performance
-Persuasion
-Sleight of Hand
-Stealth
+[Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, Stealth]

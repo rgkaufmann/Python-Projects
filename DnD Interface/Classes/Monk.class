@@ -6,29 +6,15 @@ Hit Die:
 1d8
 
 Armor:
+[]
 
 Weapon:
-Simple
-Shortsword
+[Simple, Shortsword]
 
 Tool:
 1
-Bagpipes
-Drum
-Dulcimer
-Flute
-Horn
-Lute
-Lyre
-Pan Flute
-Shawm
-Viol
+[Bagpipes, Drum, Dulcimer, Flute, Horn, Lute, Lyre, Pan Flute, Shawm, Viol]
 
 Skills:
 2
-Acrobatics
-Athletics
-History
-Insight
-Religion
-Stealth
+[Acrobatics, Athletics, History, Insight, Religion, Stealth]

@@ -6,19 +6,14 @@ Hit Die:
 1d8
 
 Armor:
-Light
+[Light]
 
 Weapon:
-Simple
+[Simple]
 
 Tool:
+[]
 
 Skills:
 2
-Arcana
-History
-Insight
-Medicine
-Nature
-Perception
-Religion
+[Arcana, History, Insight, Medicine, Nature, Perception, Religion]
