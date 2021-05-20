@@ -5,7 +5,7 @@ CON
 WIS
 INT
 CHA
-OTHER
+OTHER[CHOICES]
 
 Size:
 LVL - Size 1

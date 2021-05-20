@@ -77,8 +77,6 @@ SUBRACES = {'Aarakocra':         [],
             'Warforged':         [],
             'Yuan-ti Pureblood': []}
 
-# Stats, Speed, Age, Size, Language, Proficiencies, Skills, Abilities
-
 CLASSES = ['Artificer',
            'Barbarian',
            'Bard',
@@ -256,3 +254,74 @@ EXPLEVELS = [0,
              265000,
              305000,
              355000]
+
+STATS = ['STR', 'DEX', 'CON', 'WIS', 'INT', 'CHA']
+
+LANGUAGES = ['Common', 'Dwarvish', 'Elvish', 'Giant', 'Gnomish', 'Goblin',
+             'Halfling', 'Orc', 'Abyssal', 'Celestial', 'Draconic',
+             'Deep Speech', 'Infernal', 'Primordial', 'Sylvan', 'Undercommon',
+             'Aarakocra', 'Gith', 'Quori', 'Leonin', 'Loxodon', 'Minotaur',
+             'Vedalken']
+
+SKILLS = ['Acrobatics', 'Animal Handling', 'Arcana', 'Athletics',
+          'Deception', 'History', 'Insight', 'Intimidation', 'Investigation',
+          'Medicine', 'Nature', 'Perception', 'Performance', 'Persuasion',
+          'Religion', 'Sleight of Hand', 'Stealth', 'Survival']
+
+SKILLSTATS = ['DEX', 'WIS', 'INT', 'STR', 'CHA', 'INT', 'WIS', 'CHA', 'INT',
+              'WIS', 'INT', 'WIS', 'CHA', 'CHA', 'INT', 'DEX', 'DEX', 'WIS']
+
+TOOLS = ["Alchemist's Supplies", "Brewer's Supplies", "Calligrapher's Supplies",
+         "Carpenter's Tools", "Cartographer's Tools", "Cobbler's Tools",
+         "Cook's Utensils", "Glassblower's Tools", "Jeweler's Tools",
+         "Leatherworker's Tools", "Mason's Tools", "Painter's Supplies",
+         "Potter's Tools", "Smith's Tools", "Tinker's Tools", "Weaver's Tools",
+         "Woodcarver's Tools", "Disguise kit", "Forgery Kit", "Herbalism Kit",
+         "Bagpipes", "Drum", "Dulcimer", "Flute", "Lute", "Lyre", "Horn",
+         "Pan Flute", "Shawm", "Viol", "Navigator's Tools", "Poisoner's Kit",
+         "Thieves' Tools", "Water Vehicles", "Land Vehicles", "Dice Set",
+         "Dragonchess Set", "Playing Card Set", "Three-Dragon Ante Set"]
+
+INSTRUMENTS = ["Bagpipes", "Drum", "Dulcimer", "Flute", "Lute", "Lyre", "Horn",
+               "Pan Flute", "Shawm", "Viol"]
+
+ARTISANTOOLS = ["Alchemist's Supplies", "Brewer's Supplies",
+                "Calligrapher's Supplies", "Carpenter's Tools",
+                "Cartographer's Tools", "Cobbler's Tools", "Cook's Utensils",
+                "Glassblower's Tools", "Jeweler's Tools",
+                "Leatherworker's Tools", "Mason's Tools", "Painter's Supplies",
+                "Potter's Tools", "Smith's Tools", "Tinker's Tools",
+                "Weaver's Tools", "Woodcarver's Tools"]
+
+GAMINGSETS = ["Dice Set", "Dragonchess Set", "Playing Card Set",
+              "Three-Dragon Ante Set"]
+
+ARMORTYPES = ['Heavy', 'Medium', 'Light', 'Shields']
+
+WEAPONS = ['Club', 'Dagger', 'Greatclub', 'Handaxe', 'Javelin', 'Light Hammer',
+           'Mace', 'Quarterstaff', 'Sickle', 'Spear', 'Light Crossbow', 'Dart',
+           'Shortbow', 'Sling', 'Battleaxe', 'Flail', 'Glaive', 'Greataxe',
+           'Greatsword', 'Halbred', 'Lance', 'Longsword', 'Maul', 'Morningstar',
+           'Pike', 'Rapier', 'Scimitar', 'Shortsword', 'Trident', 'War Pick',
+           'Warhammer', 'Whip', 'Blowgun', 'Hand Crossbow', 'Heavy Crossbow',
+           'Longbow', 'Net']
+
+SIMPLEWEAPONS = ['Club', 'Dagger', 'Greatclub', 'Handaxe', 'Javelin',
+                 'Light Hammer', 'Mace', 'Quarterstaff', 'Sickle', 'Spear',
+                 'Light Crossbow', 'Dart', 'Shortbow', 'Sling']
+
+MARTIALWEAPONS = ['Battleaxe', 'Flail', 'Glaive', 'Greataxe', 'Greatsword',
+                  'Halbred', 'Lance', 'Longsword', 'Maul', 'Morningstar',
+                  'Pike', 'Rapier', 'Scimitar', 'Shortsword', 'Trident',
+                  'War Pick', 'Warhammer', 'Whip', 'Blowgun', 'Hand Crossbow',
+                  'Heavy Crossbow', 'Longbow', 'Net']
+
+RANGEDWEAPONS = ['Light Crossbow', 'Dart', 'Shortbow', 'Sling', 'Blowgun',
+                 'Hand Crossbow', 'Heavy Crossbow', 'Longbow', 'Net']
+
+MELEEWEAPONS = ['Club', 'Dagger', 'Greatclub', 'Handaxe', 'Javelin',
+                'Light Hammer', 'Mace', 'Quarterstaff', 'Sickle', 'Spear',
+                'Battleaxe', 'Flail', 'Glaive', 'Greataxe', 'Greatsword',
+                'Halbred', 'Lance', 'Longsword', 'Maul', 'Morningstar', 'Pike',
+                'Rapier', 'Scimitar', 'Shortsword', 'Trident', 'War Pick',
+                'Warhammer', 'Whip']
