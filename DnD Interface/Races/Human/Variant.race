@@ -50,20 +50,6 @@ DamageImmune:
 []
 
 Abilities:
--Language
--Carrying
--Movement
--Skills
-=Skills
-You gain proficiency in one skill of your choice.
--Tools
--Saves
--Attack
--Healing
--Spells
--Actions
--BA
--Reactions
--Other
 =Feat
 You gain one feat of your choice.
+-Other

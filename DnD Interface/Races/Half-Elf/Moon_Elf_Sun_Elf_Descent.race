@@ -44,26 +44,15 @@ Resistances:
 []
 
 ConditionImmune:
-[]
+[Magic Sleep]
 
 DamageImmune:
 []
 
 Abilities:
--Language
--Carrying
--Movement
--Skills
--Tools
--Saves
 =Fey Ancestry
 You have advantage on saving throws against being charmed, and magic can't put you to sleep.
--Attack
--Healing
--Spells
--Actions
--BA
--Reactions
--Other
+-Saves, Sleep
 =Variant Feature
 Choose 1 of: Skill Versatility, you gain proficiency in two skills of your choice. Keen Senses, you have proficiency in the Perception skill. Elf Weapon Training, you have proficiency with the longsword, shortsword, shortbow, and longbow. Cantrip, you know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.
+-Skills, Spells

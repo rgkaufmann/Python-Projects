@@ -49,22 +49,12 @@ DamageImmune:
 []
 
 Abilities:
--Language
 =Speak with Small Beasts
 Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets.
--Carrying
--Movement
--Skills
--Tools
--Saves
+-Language
 =Gnome Cunning
 You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.
--Attack
--Healing
--Spells
+-Saves
 =Natural Illusionist
 You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.
--Actions
--BA
--Reactions
--Other
+-Spells

@@ -49,20 +49,9 @@ DamageImmune:
 []
 
 Abilities:
--Language
--Carrying
--Movement
--Skills
--Tools
--Saves
 =Mental Discipline
 You have advantage on saving throws against the charmed and frightened conditions. Under the tutelage of monastic masters, githzerai learn to govern their own minds.
--Attack
--Healing
--Spells
-=Githyanki Psionics
+-Saves
+=Githyanki Psionics{1/LR}
 You know the mage hand cantrip, and the hand is invisible when you cast the cantrip with this trait. When you reach 3rd level, you can cast jump once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the misty step spell once with this trait, and you regain the ability to do so when you finish a long rest. Intelligence is your spellcasting ability for these spells. When you cast them with this trait, they don't require components.
--Actions
--BA
--Reactions
--Other
+-Spells, LU

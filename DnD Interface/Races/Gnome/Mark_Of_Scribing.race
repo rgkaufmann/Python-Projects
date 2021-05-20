@@ -49,24 +49,15 @@ DamageImmune:
 []
 
 Abilities:
--Language
--Carrying
--Movement
--Skills
 =Gifted Scribe
 When you make an Intelligence (History) check or an ability check using calligrapher's supplies, you can roll a d4 and add the number rolled to the ability check.
--Tools
--Saves
+-Skills
 =Gnome Cunning
 You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.
--Attack
--Healing
--Spells
-=Scribe's Insight
+-Saves
+=Scribe's Insight{1/LR}
 You know the message cantrip. You can also cast comprehend languages once with this trait, and you regain the ability to cast it when you finish a short or long rest. Starting at 3rd level, you can cast the magic mouth spell with this trait, and you regain the ability to cast it when you finish a long rest. Intelligence is your spellcasting ability for these spells.
+-Spells, LU
 =Spells of the Mark
-If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Scribing Spells table are added to the spell list of your spellcasting class.
--Actions
--BA
--Reactions
--Other
+If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Scribing Spells table are added to the spell list of your spellcasting class. Mark of Scribing Spells
+-Spells

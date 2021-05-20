@@ -49,22 +49,12 @@ DamageImmune:
 []
 
 Abilities:
--Language
--Carrying
 =Powerful Build
 You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
--Movement
--Skills
--Tools
--Saves
--Attack
+-Carrying
 =Long-Limbed
 When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.
+-Attack
 =Surprise Attack{1/C}
 If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.
--Healing
--Spells
--Actions
--BA
--Reactions
--Other
+-ED, LU

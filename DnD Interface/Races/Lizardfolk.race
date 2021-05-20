@@ -50,24 +50,15 @@ DamageImmune:
 []
 
 Abilities:
--Language
--Carrying
--Movevment
--Skills
--Tools
 =Cunning Artisan
 As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.
--Saves
--Attack
+-Skills
 =Bite
 Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+-Attack
 =Hungry Jaws{1/R}
 In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest.
--Healing
--Spells
--Actions
--BA
--Reactions
--Other
+-BA, LU, Healing
 =Hold Breath
 You can hold your breath for up to 15 minutes at a time.
+-Breathing
