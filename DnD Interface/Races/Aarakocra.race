@@ -50,20 +50,9 @@ DamageImmune:
 []
 
 Abilities:
--Language
--Carrying
--Movement
 =Flight
 You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor.
--Skills
--Tools
--Saves
--Attack
+-Movement
 =Talons
 Your talons are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
--Healing
--Spells
--Action
--BA
--Reactions
--Other
+-Attack

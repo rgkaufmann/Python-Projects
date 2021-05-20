@@ -49,24 +49,15 @@ DamageImmune:
 []
 
 Abilities:
--Language
--Carrying
--Movement
--Skills
 =Sentinel's Intuition
 When you make a Wisdom (Insight) or Wisdom (Perception) check, you can roll a d4 and add the number rolled to the ability check.
--Tools
--Saves
--Attack
--Healing
--Spells
-=Guardian's Shield
+-Skills
+=Guardian's Shield{1/LR}
 You can cast the shield spell once with this trait, and you regain the ability to cast it after you finish a long rest. Wisdom is your spellcasting ability for this spell.
+-Spells, LU
 =Spells of the Mark
 If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Passage Spells table are added to the spell list of your spellcasting class. Mark of Sentinel Spells
--Actions
--BA
--Reactions
-=Vigilant Guardian
-When a creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to swap places with that creature, and you are hit by the attack instead. Once you use this trait, you can't do so again until you finish a long rest
--Other
+-Spells
+=Vigilant Guardian{1/LR}
+When a creature you can see within 5 feet of you is hit by an attack roll, you can use your reaction to swap places with that creature, and you are hit by the attack instead. Once you use this trait, you can't do so again until you finish a long rest.
+-Reaction, LU

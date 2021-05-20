@@ -44,30 +44,21 @@ Resistances:
 []
 
 ConditionImmune:
-[]
+[Magic Sleep]
 
 DamageImmune:
 []
 
 Abilities:
--Language
--Carrying
--Movement
--Skills
 =Deductive Intuition
 When you make an Intelligence (Investigation) or a Wisdom (Insight) check, you can roll a d4 and add the number rolled to the ability check.
--Tools
--Saves
+-Skills
 =Fey Ancestry
 You have advantage on saving throws against being charmed, and magic can't put you to sleep.
--Attack
--Healing
--Spells
-=Magical Detection
+-Saves, Sleep
+=Magical Detection{1/LR}
 You can cast the detect magic and detect poison and disease spells with this trait. Starting at 3rd level, you can also cast the see invisibility spell with it. Once you cast any of these spells with this trait, you can't cast that spell with it again until you finish a long rest. Wisdom is your spellcasting ability for these spells, and you don't require material components for them.
+-Spells, LU
 =Spells of the Mark
-If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Detection Spells table are added to the spell list of your spellcasting class.
--Actions
--BA
--Reactions
--Other
+If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Detection Spells table are added to the spell list of your spellcasting class. Mark of Detection Spells
+-Spells

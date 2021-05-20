@@ -31,7 +31,7 @@ Common
 Orc
 
 Profs:
-[]
+[Intimidation]
 
 AC:
 0
@@ -49,22 +49,9 @@ DamageImmune:
 []
 
 Abilities:
--Language
--Carrying
--Movement
--Skills
-=Menacing
-You gain proficiency in the Intimidation skill.
--Tools
--Saves
--Attack
 =Savage Attacks
 Savage Attacks. When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.
--Healing
-=Relentless Endurance
+-Attack, ED
+=Relentless Endurance{1/LR}
 When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.
--Spells
--Actions
--BA
--Reactions
--Other
+-Healing, LU

@@ -50,20 +50,9 @@ DamageImmune:
 []
 
 Abilities:
--Language
--Carrying
 =Powerful Build
 You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.
--Movevment
--Skills
--Tools
--Saves
--Attack
--Healing
--Spells
--Actions
--BA
+-Carrying
 =Aggressive
 As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started.
--Reactions
--Other
+-BA

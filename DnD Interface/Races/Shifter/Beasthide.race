@@ -48,20 +48,9 @@ DamageImmune:
 []
 
 Abilities:
--Language
--Carrying
--Movement
--Skills
--Tools
--Saves
--Attack
--Healing
--Spells
--Action
--BA
-=Shifting
+=Shifting{1/R}
 As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain additional benefits that depend on your shifter subrace, described below. Once you shift, you can't do so again until you finish a short or long rest.
--Reactions
--Other
+-BA, LU, Healing
 =Shifting Feature
 Whenever you shift, you gain 1d6 additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class.
+-Healing, AC

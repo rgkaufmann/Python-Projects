@@ -49,20 +49,9 @@ DamageImmune:
 []
 
 Abilities:
--Language
--Carrying
--Movement
--Skills
--Tools
--Saves
--Attack
--Healing
--Spells
-=Mingle with the Wind
+=Mingle with the Wind{1/LR}
 You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.
--Actions
--BA
--Reactions
--Other
+-Spells, LU
 =Unending Breath
 You can hold your breath indefinitely while you're not incapacitated.
+-Breathing

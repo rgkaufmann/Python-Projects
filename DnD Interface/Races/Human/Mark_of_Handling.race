@@ -49,24 +49,15 @@ DamageImmune:
 []
 
 Abilities:
--Language
--Carrying
--Movement
--Skills
 =Wild Intuition
 When you make a Wisdom (Animal Handling) or Intelligence (Nature) check, you can roll a d4 and add the number rolled to the ability check.
--Tools
--Saves
--Attack
--Healing
--Spells
-=Primal Conection
+-Skills
+=Primal Connection{1/LR}
 You can cast the animal friendship and speak with animals spells with this trait, requiring no material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a short or long rest. Wisdom is your spellcasting ability for these spells.
+-Spells, LU
 =Spells of the Mark
 If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Finding Spells table are added to the spell list of your spellcasting class. Mark of Handling Spells
--Actions
--BA
--Reactions
--Other
+-Spells
 =The Bigger They Are
 Starting at 3rd level, you can target a beast or monstrosity when you cast animal friendship or speak with animals, provided the creature's Intelligence score is 3 or lower.
+-Spells
