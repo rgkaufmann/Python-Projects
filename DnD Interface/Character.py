@@ -394,3 +394,291 @@ class Character:
 
     def isEncumbrance(self):
         return self.encumbrance
+
+    # All the set functions
+    def setName(self, name):
+        self.name = name
+
+
+    def setRace(self, race):
+        self.race = race
+
+
+    def setBackground(self):
+        self.background
+
+
+    def setIdeals(self):
+        self.ideals
+
+
+    def setBonds(self):
+        self.bonds
+
+
+    def setFlaws(self):
+        self.flaws
+
+
+    def setAlignment(self):
+        self.alignment
+
+
+    def setExp(self):
+        self.exp
+
+
+    def setExhaustion(self):
+        self.exhaustion
+
+
+    def setHeroPoints(self):
+        self.heropoints
+
+
+    def setPiety(self):
+        self.piety
+
+
+    def setBardInspo(self, bardinspo):
+        self.bardinspo = bardinspo
+
+
+    def setDMInspo(self, dminspo):
+        self.dminspo = dminspo
+
+
+    def setClassLevels(self, classlvls):
+        self.classlvls = classlvls
+
+
+    def setClassInfo(self, classinfo):
+        self.classinfo = classinfo
+
+
+    def setSaves(self, saves):
+        self.saves = saves
+
+
+    def setStats(self, stats):
+        self.stats = stats
+
+
+    def setDeathSaves(self, deathsaves):
+        self.deathsaves = deathsaves
+
+
+    def setRaceSpeed(self, racespeed):
+        self.racespeed = racespeed
+
+
+    def setClassSpeed(self, classspeed):
+        self.classspeeds = classspeed
+
+
+    def setRaceSpeedRestrictions(self, racespeedrestrictions):
+        self.racespeedrestrictions = racespeedrestrictions
+
+
+    def setClassSpeedRestrictions(self, classspeedrestrictions):
+        self.classspeedrestrictions = classspeedrestrictions
+
+
+    def setSize(self, size):
+        self.size = size
+
+
+    def setAge(self, age):
+        self.age = age
+
+
+    def setAgeInfo(self, ageinfo):
+        self.ageinfo = ageinfo
+
+
+    def setType(self, type):
+        self.type = type
+
+
+    def setVision(self, vision):
+        self.vision = vision
+
+
+    def setHeight(self, height):
+        self.height = height
+
+
+    def setWeight(self, weight):
+        self.weight = weight
+
+
+    def setSkin(self, skin):
+        self.skin = skin
+
+
+    def setHair(self, hair):
+        self.hair = hair
+
+
+    def setEyes(self, eyes):
+        self.eyes = eyes
+
+
+    def setRaceLanguages(self, racelanguages):
+        self.racelanguages = racelanguages
+
+
+    def setBackLanguages(self, backlangauges):
+        self.backlanguages = backlangauges
+
+
+    def setClassLanguages(self, classlangauges):
+        self.classlanguages = classlangauges
+
+
+    def setAllLanguages(self, racelanguages, backlangauges, classlangauges):
+        self.racelanguages = racelanguages
+        self.backlangauges = backlangauges
+        self.classlangauges = classlangauges
+
+
+    def setRaceSkills(self, raceskills):
+        self.raceskils = raceskills
+
+
+    def setBackSkills(self, backskills):
+        self.backskills = backskills
+
+
+    def setClassSkills(self, classskills):
+        self.classskills = classskills
+
+
+    def setAllSkills(self, raceskills, backskills, classskills):
+        self.raceskills = raceskills
+        self.backskills = backskills
+        self.classskills = classskills
+
+
+    def setRaceTools(self, racetools):
+        self.racetools = racetools
+
+
+    def setBackTools(self, backtools):
+        self.backtools = backtools
+
+
+    def setClassTools(self, classtools):
+        self.classtools = classtools
+
+
+    def setAllTools(self, racetools, backtools, classtools):
+        self.racetools = racetools
+        self.backtools = backtools
+        self.classtools = classtools
+
+
+    def setRaceOthers(self, raceothers):
+        self.raceothers = raceothers
+
+
+    def setBackOthers(self, backothers):
+        self.backothers = backothers
+
+
+    def setClassOthers(self, classothers):
+        self.classothers = classothers
+
+
+    def setAllOthers(self, raceothers, backothers, classothers):
+        self.raceothers = raceothers
+        self.backothers = backothers
+        self.classothers = classothers
+
+
+    def setRacialAC(self, racialac):
+        self.racialac = racialac
+
+
+    def setRacialACMod(self, racialacmod):
+        self.racialacmod = racialacmod
+
+
+    def setClassAC(self, classac):
+        self.classac = classac
+
+
+    def setClassACMod(self, classacmod):
+        self.classacmod = classacmod
+
+
+    def setRacialACRestricts(self, racialacrestricts):
+        self.racialacrestricts = racialacrestricts
+
+
+    def setClassACRestricts(self, classacrestricts):
+        self.classacrestricts = classacrestricts
+
+
+    def setHP(self, hp):
+        self.hp = hp
+
+
+    def setTempHP(self, temphp):
+        self.temphp = temphp
+
+
+    def setRacialHP(self, racialhp):
+        self.racialhp = racialhp
+
+
+    def setConditions(self, conditions):
+        self.conditions = conditions
+
+
+    def setRaceDamResists(self, racedamresists):
+        self.racedamresists = racedamresists
+
+
+    def setClassDamResists(self, classdamresists):
+        self.classdamresists = classdamresists
+
+
+    def setDamVulners(self, damvulners):
+        self.damvulners = damvulners
+
+
+    def setDamImmunes(self, damimmunes):
+        self.damimmunes = damimmunes
+
+
+    def setRaceConImmunes(self, raceconimmunes):
+        self.raceconimmunes = raceconimmunes
+
+
+    def setClassConImmunes(self, classconimmunes):
+        self.classconimmunes = classconimmunes
+
+
+    def setRacialAbilityTags(self, racialabilitytags):
+        self.racialabilitytags = racialabilitytags
+
+
+    def setRacialAbilities(self, racialabilities):
+        self.racialabilities = racialabilities
+
+
+    def setInventory(self, inventory):
+        self.inventory = inventory
+
+
+    def setAttunement(self, attunement):
+        self.attunement = attunement
+
+
+    def setCoins(self, coins):
+        self.coins = coins
+
+
+    def setEncumbrance(self, encumbrance):
+        self.encumbrance = encumbrance
