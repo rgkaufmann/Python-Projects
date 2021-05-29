@@ -4,6 +4,7 @@
 # Import statements
 import numpy as np
 from Constants import STATS, LANGUAGES, SKILLS, TOOLS, ARMORTYPES, WEAPONS
+from Character import *
 
 # Finds and returns location (indices) of blank lines given list of lines
 def getBlankLines(lines):
@@ -270,25 +271,6 @@ def parseSpeed(speedlines):
     return racialspeed, restricts
 
 
-# Uses the list of lines in the Vision section to determine the quality of
-# vision a given race has, returned as a string. The race can have either
-# regular vision (0), dark vision (1), or superior dark vision (2).
-def parseVision(visionlines):
-    if '0' in visionlines[0]:
-        return "Your character's vision is average. It can be impaired by " + \
-               "darkness or dim light."
-    elif '1' in visionlines[0]:
-        return "Your character has dark vision to a range of 60ft. In this" + \
-               " range, you can see in darkness as if it was dim light or " + \
-               "in dim light as if it bright light. You cannot discern " + \
-               "color in darkness."
-    elif '2' in visionlines[0]:
-        return "Your character has dark vision to a range of 120ft. In this" + \
-               " range, you can see in darkness as if it was dim light or " + \
-               "in dim light as if it bright light. You cannot discern " + \
-               "color in darkness."
-
-
 # Uses the list of lines in the Language section to determine the languages that
 # a character of a given race knows. Returns the languages as a list.
 def parseLanguage(languagelines):
@@ -421,7 +403,7 @@ def parseAbilities(abilitylines):
 
 # Takes a given file name or file path and returns all the racial information,
 # abilities, and so forth for the related file.
-def parseRace(filename):
+def parseRace(filename, character):
     # Checks to see if the file is a .race file.
     if '.race' not in filename:
         print('The specified file is not a race file. Please pick another.')
@@ -436,25 +418,35 @@ def parseRace(filename):
     linesdict = convertToDictionary(lines)
     statinfo = parseStats(linesdict['Stats'])
     sizeinfo = parseSize(linesdict['Size'])
-    speedinfo, speedrestirctions = parseSpeed(linesdict['Speed'])
+    speedinfo, speedrestrictions = parseSpeed(linesdict['Speed'])
     ageinfo = linesdict['Age'][0][:-1]
     typeinfo = linesdict['Type'][0][:-1]
-    visioninfo = parseVision(linesdict['Vision'])
+    visioninfo = int(linesdict['Vision'][0]) * 60
     languageinfo = parseLanguage(linesdict['Language'])
     skillinfo, toolinfo, otherinfo = parseProfs(linesdict['Profs'])
     raceacmod, acrestricts, racialac = parseAC(linesdict['AC'])
     racialhp = int(linesdict['HP'][0])
     damresistinfo = convertStringToList(linesdict['Resistances'][0])
     damimmuneinfo = convertStringToList(linesdict['DamageImmune'][0])
-    conresistinfo = convertStringToList(linesdict['ConditionImmune'][0])
+    conimmuneinfo = convertStringToList(linesdict['ConditionImmune'][0])
     abilityinfo, abilitytags = parseAbilities(linesdict['Abilities'])
+
+    if filename.find('/', 6) == -1:
+        racename = filename[6:]
+    else:
+        racename = filename[(filename.index('/', 6) + 1):] + \
+                   filename[6:filename.index('/', 6)]
+
+    character.updateRace(statinfo, sizeinfo, speedinfo, speedrestrictions,\
+                         ageinfo, typeinfo, visioninfo, languageinfo,\
+                         skillinfo, toolinfo, otherinfo, raceacmod,\
+                         acrestricts, racialac, racialhp, damresistinfo,\
+                         damimmuneinfo, conimmuneinfo, abilityinfo,\
+                         abilitytags, racename)
 
     # All of the information is then returned (to be made into a single object
     # at a later date).
-    return statinfo, sizeinfo, speedinfo, speedrestirctions, ageinfo, typeinfo,\
-           visioninfo, languageinfo, skillinfo, toolinfo, otherinfo, raceacmod,\
-           acrestricts, racialac, racialhp, damresistinfo, damimmuneinfo,\
-           conresistinfo, abilityinfo, abilitytags
+    return character
 
 
 # Returns list of Booleans, element is true if class is proficient
@@ -467,7 +459,7 @@ def parseSaves(saveslist):
 # For given class file, retrieves class feature data.
 # Returns saves, hit die, armor, weapon, and tool proficiencies, and skills. All
 # are returned as lists, except hitdie, which is a string.
-def parseClass(filename):
+def parseClass(filename, character):
     # Checks to see if the file is a .class file.
     if '.class' not in filename:
         print('The specified file is not a class file. Please pick another.')
@@ -486,6 +478,10 @@ def parseClass(filename):
                  parseProfs(linesdict['Weapon'])
     toolprofs = parseProfs(linesdict['Tool'])
     skillsinfo = parseProfs(LinesDict['Skills'])
+
+    # instantiate class Object
+    classname = filename.strip('.class')
+
 
     # All of the information is then returned (to be made into a single object
     # at a later date).
