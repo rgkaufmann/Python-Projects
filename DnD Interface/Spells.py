@@ -21,6 +21,9 @@
 # 'HIGHERLEVEL': "more stuff"
 # 'REQSIGHT': True/False}
 
+
+#### ------------------------- CANTRIPS ---------------------- ####
+
 ACIDSPLASH = {"NAME": "Acid Splash",
 "LEVEL": 0,
 "SCHOOL": "Conjuration",
@@ -1303,6 +1306,140 @@ WORDOFRADIANCE = {"NAME": "Word Of Radiance",
             "(2d6), 11th level (3d6), and 17th level (4d6).",
 "HIGHERLEVEL": "",
 "REQSIGHT": True
+}
+
+
+#### ------------------------- 1ST LEVEL ---------------------- ####
+
+ABSORBELEMENTS = {"NAME": "Absorb Elements",
+"LEVEL": 1,
+"SCHOOL": "Abjuration",
+"CASTTIME": "1 reaction, which you take when you take acid, cold, fire, lightning, or thunder damage",
+"RANGE": "Self",
+"COMP": [False, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "1 Round",
+"DAMAGETYPE": ["Acid", "Cold", "Fire", "Lightning", "Thunder"],
+"COND": [],
+"SPELLATTCK": "Melee",
+"SAVETYPE": "",
+"TARGETS": "Single Target",
+"TAG": ["Damage", "Buff"],
+"DESCRIPT": "The spell captures some of the incoming energy, lessening its effect "
+            "on you and storing it for your next melee attack. You have resistance "
+            "to the triggering damage type until the start of your next turn. Also, "
+            "the first time you hit with a melee attack on your next turn, the "
+            "target takes an extra 1d6 damage of the triggering type, and the spell ends.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+ALARM = {"NAME": "Alarm",
+"LEVEL": 1,
+"SCHOOL": "Abjuration",
+"CASTTIME": "1 minute",
+"RANGE": "30 feet",
+"COMP": [True, True, True],
+"MATERIALS": "a tiny bell and a piece of fine silver wire",
+"RITUAL": True,
+"CONC": False,
+"DURATION": "8 hours",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": "",
+"TAG": ["Detection", "Utility"],
+"DESCRIPT": "You set an alarm against unwanted intrusion. Choose a door, a window, "
+            "or an area within range that is no larger than a 20-foot cube. "
+            "Until the spell ends, an alarm alerts you whenever a Tiny or "
+            "larger creature touches or enters the warded area. When you cast "
+            "the spell, you can designate creatures that won't set off the alarm. "
+            "You also choose whether the alarm is mental or audible.\nA mental "
+            "alarm alerts you with a ping in your mind if you are within 1 mile "
+            "of the warded area. This ping awakens you if you are sleeping.\n"
+            "An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+ANIMALFRIENDSHIP = {"NAME": "Animal Friendship",
+"LEVEL": 1,
+"SCHOOL": "Enchantment",
+"CASTTIME": "1 Action",
+"RANGE": "30 feet",
+"COMP": [True, True, True],
+"MATERIALS": "a morsel of food",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "24 hours",
+"DAMAGETYPE": [],
+"COND": [Charmed],
+"SPELLATTCK": "Save",
+"SAVETYPE": "WIS",
+"TARGETS": "Single Target",
+"TAG": ["Control", "Social"],
+"DESCRIPT": "This spell lets you convince a beast that you mean it no harm. "
+            "Choose a beast that you can see within range. It must see and hear "
+            "you. If the beast's Intelligence is 4 or higher, the spell fails. "
+            "Otherwise, the beast must succeed on a Wisdom saving throw or be "
+            "charmed by you for the spell's duration. If you or one of your "
+            "companions harms the target, the spell ends.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st.",
+"REQSIGHT": True
+}
+
+ARMOROFAGATHYS = {"NAME": "Armor Of Agathys",
+"LEVEL": 1,
+"SCHOOL": "Abjuration",
+"CASTTIME": "1 Action",
+"RANGE": "Self",
+"COMP": [True, True, True],
+"MATERIALS": "a cup of water",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "1 hours",
+"DAMAGETYPE": ["Cold"],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": "Single Target",
+"TAG": ["Damage", "Warding", "Buff"],
+"DESCRIPT": "A protective magical force surrounds you, manifesting as a spectral "
+            "frost that covers you and your gear. You gain 5 temporary hit points "
+            "for the duration. If a creature hits you with a melee attack while "
+            "you have these hit points, the creature takes 5 cold damage.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or "
+               "higher, both the temporary hit points and the cold damage increase by 5 for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+ARMSOFHADAR = {"NAME": "Arms Of Hadar",
+"LEVEL": 1,
+"SCHOOL": "Conjuration",
+"CASTTIME": "1 Action",
+"RANGE": "Self(10-foot radius)",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "Instantaneous",
+"DAMAGETYPE": ["Necrotic"],
+"COND": [],
+"SPELLATTCK": "Save",
+"SAVETYPE": "STR",
+"TARGETS": "Mulitple Targets",
+"TAG": ["Damage", "Debuff"],
+"DESCRIPT": "You invoke the power of Hadar, the Dark Hunger. Tendrils of dark "
+            "energy erupt from you and batter all creatures within 10 feet of "
+            "you. Each creature in that area must make a Strength saving throw. "
+            "On a failed save, a target takes 2d6 necrotic damage and can't take "
+            "reactions until its next turn. On a successful save, the creature "
+            "takes half damage, but suffers no other effect.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+"REQSIGHT": False
 }
 
 
