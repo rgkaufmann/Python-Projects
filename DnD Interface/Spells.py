@@ -1830,7 +1830,7 @@ COMPREHENDLANGUAGES = {"NAME": "Comprehend Languagues",
 "MATERIALS": "a pinch of soot and salt",
 "RITUAL": True,
 "CONC": False,
-    "DURATION": "1 hour",
+"DURATION": "1 hour",
 "DAMAGETYPE": [],
 "COND": [],
 "SPELLATTCK": None,
@@ -1893,6 +1893,477 @@ CUREWOUNDS = {"NAME": "Cure Wounds",
             "your spellcasting ability modifier. This spell has no effect on "
             "undead or constructs.",
 "HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+DETECTEVILANDGOOD = {"NAME": "Detect Evil And Good",
+"LEVEL": 1,
+"SCHOOL": "Divination",
+"CASTTIME": "1 Action",
+"RANGE": "Self",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": True,
+"DURATION": "Up to 10 minutes",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": None,
+"TAG": ["Utility", "Detection"],
+"DESCRIPT": "For the duration, you know if there is an aberration, celestial, "
+            "elemental, fey, fiend, or undead within 30 feet of you, as well as "
+            "where the creature is located. Similarly, you know if there is a "
+            "place or object within 30 feet of you that has been magically "
+            "consecrated or desecrated.\nThe spell can penetrate most barriers, "
+            "but it is blocked by 1 foot of stone, 1 inch of common metal, a "
+            "thin sheet of lead, or 3 feet of wood or dirt.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+DETECTMAGIC = {"NAME": "Detect Magic",
+"LEVEL": 1,
+"SCHOOL": "Divination",
+"CASTTIME": "1 Action",
+"RANGE": "Self",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": True,
+"CONC": True,
+"DURATION": "Up to 10 minutes",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": None,
+"TAG": ["Utility", Detection],
+"DESCRIPT": "For the duration, you sense the presence of magic within 30 feet of "
+            "you. If you sense magic in this way, you can use your action to see "
+            "a faint aura around any visible creature or object in the area that "
+            "bears magic, and you learn its school of magic, if any.\nThe spell "
+            "can penetrate most barriers, but it is blocked by 1 foot of stone, "
+            "1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+DETECTPOISONANDDISEASE = {"NAME": "Detect Poison And Disease",
+"LEVEL": 1,
+"SCHOOL": "Divination",
+"CASTTIME": "1 Action",
+"RANGE": "Self",
+"COMP": [True, True, True],
+"MATERIALS": "a yew leaf",
+"RITUAL": True,
+"CONC": True,
+"DURATION": "Up to 10 minutes",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": None,
+"TAG": ["Utility", "Detection"],
+"DESCRIPT": "For the duration, you can sense the presence and location of poisons, "
+            "poisonous creatures, and diseases within 30 feet of you. You also "
+            "identify the kind of poison, poisonous creature, or disease in each "
+            "case.\nThe spell can penetrate most barriers, but it is blocked by "
+            "1 foot of stone, 1 inch of common metal, a thin sheet of lead, or "
+            "3 feet of wood or dirt.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+DISGUISESELF = {"NAME": "Disguise Self",
+"LEVEL": 1,
+"SCHOOL": "Illusion",
+"CASTTIME": "1 Action",
+"RANGE": "Self",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "1 hour",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": None,
+"TAG": ["Shapechanging"],
+"DESCRIPT": "You make yourself—including your clothing, armor, weapons, and other "
+            "belongings on your person—look different until the spell ends or until "
+            "you use your action to dismiss it. You can seem 1 foot shorter or "
+            "taller and can appear thin, fat, or in between. You can't change your "
+            "body type, so you must adopt a form that has the same basic arrangement "
+            "of limbs. Otherwise, the extent of the illusion is up to you.\nThe "
+            "changes wrought by this spell fail to hold up to physical inspection. "
+            "For example, if you use this spell to add a hat to your outfit, "
+            "objects pass through the hat, and anyone who touches it would feel "
+            "nothing or would feel your head and hair. If you use this spell to "
+            "appear thinner than you are, the hand of someone who reaches out to "
+            "touch you would bump into you while it was seemingly still in midair."
+            "\nTo discern that you are disguised, a creature can use its action "
+            "to inspect your appearance and must succeed on an Intelligence "
+            "(Investigation) check against your spell save DC.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+DISSONANTWHISPERS = {"NAME": "Dissonant Whispers",
+"LEVEL": 1,
+"SCHOOL": "Enchantment",
+"CASTTIME": "1 Action",
+"RANGE": "60 feet",
+"COMP": [True, False, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "Instantaneous",
+"DAMAGETYPE": ["Psychic"],
+"COND": [],
+"SPELLATTCK": :,"Save",
+"SAVETYPE": "WIS",
+"TARGETS": "Single Target",
+"TAG": ["Damage"],
+"DESCRIPT": "You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A deafened creature automatically succeeds on the save.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+DISTORTVALUE = {"NAME": "Distort Value",
+"LEVEL": 1,
+"SCHOOL": "Illusion",
+"CASTTIME": "1 Minute",
+"RANGE": "Touch",
+"COMP": [True, False, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "8 hours",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": None,
+"TAG": ["Deception"],
+"DESCRIPT": "Do you need to squeeze a few more gold pieces out of a merchant as you try to sell that weird octopus statue you liberated from the chaos temple? Do you need to downplay the worth of some magical assets when the tax collector stops by? Distort value has you covered. \nYou cast this spell on an object no more than 1 foot on a side, doubling the object's perceived value by adding illusory flourishes or polish to it, or reducing its perceived value by half with the help of illusory scratches, dents, and other unsightly features. Anyone examining the object can ascertain its true value with a successful Intelligence (Investigation) check against your spell save DC.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, the maximum size of the object increases by 1 foot for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+DIVINEFAVOR = {"NAME": "Divine Favor",
+"LEVEL": 1,
+"SCHOOL": "Evocation",
+"CASTTIME": "1 Bonus Action",
+"RANGE": "Self",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": True,
+"DURATION": "Up to 1 minute",
+"DAMAGETYPE": ["Radiant"],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": None,
+"TAG": ["Damage", "Buff"],
+"DESCRIPT": "Your prayer empowers you with divine radiance. Until the spell ends, your weapon attacks deal an extra 1d4 radiant damage on a hit.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+EARTHTREMOR = {"NAME": "Earth Tremor",
+"LEVEL": 1,
+"SCHOOL": "Evocation",
+"CASTTIME": "1 Action",
+"RANGE": "10 feet",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "Instantaneous",
+"DAMAGETYPE": ["Bludgeoning"],
+"COND": ["Prone"],
+"SPELLATTCK": "Save",
+"SAVETYPE": "DEX",
+"TARGETS": "Multiple Targets",
+"TAG": ["Damage", "Control"],
+"DESCRIPT": "You cause a tremor in the ground within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+ENSNARINGSTRIKE = {"NAME": "Ensnaring Strike",
+"LEVEL": 1,
+"SCHOOL": "Conjuration",
+"CASTTIME": "1 Bonus Action",
+"RANGE": "Self",
+"COMP": [True, False, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": True,
+"DURATION": "Up to 1 minute",
+"DAMAGETYPE": ["Piercing"],
+"COND": ["Restrained"],
+"SPELLATTCK": "Save",
+"SAVETYPE": "STR",
+"TARGETS": "Single Target",
+"TAG": ["Damage", "Control"],
+"DESCRIPT": "The next time you hit a creature with a weapon attack before this spell ends, a writhing mass of thorny vines appears at the point of impact, and the target must succeed on a Strength saving throw or be restrained by the magical vines until the spell ends. A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the vines shrivel away. While restrained by this spell, the target takes 1d6 piercing damage at the start of each of its turns. A creature restrained by the vines or one that can touch the creature can use its action to make a Strength check against your spell save DC. On a success, the target is freed.",
+"HIGHERLEVEL": "If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+ENTANGLE = {"NAME": "Entangle",
+"LEVEL": 1,
+"SCHOOL": "Conjuration",
+"CASTTIME": "1 Action",
+"RANGE": "90 feet",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": True,
+"DURATION": "Up to 1 minute",
+"DAMAGETYPE": [],
+"COND": ["Restrained"],
+"SPELLATTCK": "Save",
+"SAVETYPE": "STR",
+"TARGETS": "Square",
+"TAG": ["Control"],
+"DESCRIPT": "Grasping weeds and vines sprout from the ground in a 20-foot square starting from a point within range. For the duration, these plants turn the ground in the area into difficult terrain. A creature in the area when you cast the spell must succeed on a Strength saving throw or be restrained by the entangling plants until the spell ends. A creature restrained by the plants can use its action to make a Strength check against your spell save DC. On a success, it frees itself. When the spell ends, the conjured plants wilt away.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+EXPEDITIOUSRETREAT = {"NAME": "Expeditious Retreat",
+"LEVEL": 1,
+"SCHOOL": "Transmutation",
+"CASTTIME": "1 Bonus Action",
+"RANGE": "Self",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": True,
+"DURATION": "Up to 10 minutes",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": "Single Target",
+"TAG": ["Movement"],
+"DESCRIPT": "This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+FAERIEFIRE = {"NAME": "Faerie Fire",
+"LEVEL": 1,
+"SCHOOL": "Evocation",
+"CASTTIME": "1 Action",
+"RANGE": "60 feet",
+"COMP": [True, False, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": True,
+"DURATION": "Up to 1 minute",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": "Save",
+"SAVETYPE": "DEX",
+"TARGETS": "Cube",
+"TAG": ["Debuff"],
+"DESCRIPT": "Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius. Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can't benefit from being invisible.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+FALSELIFE = {"NAME": "False Life",
+"LEVEL": 1,
+"SCHOOL": "Necromancy",
+"CASTTIME": "1 Action",
+"RANGE": "Self",
+"COMP": [True, True, True],
+"MATERIALS": "a small amount of alcohol or distilled spirits",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "1 hour",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": None,
+"TAG": ["Buff"],
+"DESCRIPT": "Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+FEATHERFALL = {"NAME": "Feather Fall",
+"LEVEL": 1,
+"SCHOOL": "Transmutation",
+"CASTTIME": "1 reaction, which you take when you or a creature within 60 feet of you falls",
+"RANGE": "60 feet",
+"COMP": [True, False, True],
+"MATERIALS": "a small feather or a piece of down",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "1 minute",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": "Multiple Targets",
+"TAG": ["Utility"],
+"DESCRIPT": "Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+FINDFAMILIAR = {"NAME": "Find Familiar",
+"LEVEL": 1,
+"SCHOOL": "Conjuration",
+"CASTTIME": "1 Hour",
+"RANGE": "10 feet",
+"COMP": [True, True, True],
+"MATERIALS": "10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier",
+"RITUAL": True,
+"CONC": False,
+"DURATION": "Instantaneous",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": None,
+"TAG": ["Summoning"],
+"DESCRIPT": "You gain the service of a familiar, a spirit that takes an animal form you choose: bat, cat, crab, frog (toad), hawk, lizard, octopus, owl, poisonous snake, fish (quipper), rat, raven, sea horse, spider, or weasel. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast. \nYour familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal.\nWhen the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again.\nWhile your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses.\nAs an action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits your summons. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.\nYou can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.\nFinally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+FOGCLOUD = {"NAME": "Fog Cloud",
+"LEVEL": 1,
+"SCHOOL": "Conjuration",
+"CASTTIME": "1 Action",
+"RANGE": "120 feet",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": True,
+"DURATION": "Up to 1 hour",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": "Sphere",
+"TAG": ["Environment", "Control"],
+"DESCRIPT": "You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+FROSTFINGERS = {"NAME": "Frost Fingers",
+"LEVEL": 1,
+"SCHOOL": "Evocation",
+"CASTTIME": "1 Action",
+"RANGE": "Self (15-foot cone)",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "Instantaneous",
+"DAMAGETYPE": ["Cold"],
+"COND": [],
+"SPELLATTCK": "Save",
+"SAVETYPE": "CON",
+"TARGETS": "Cone",
+"TAG": ["Damage"],
+"DESCRIPT": "Freezing cold blasts from your fingertips in a 15-foot cone. Each creature in that area must make a Constitution saving throw, taking 2d8 cold damage on a failed save, or half as much damage on a successful one.\nThe cold freezes nonmagical liquids in the area that aren't being worn or carried.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+GIFTOFALACRITY = {"NAME": "Gift Of Alacrity",
+"LEVEL": 1,
+"SCHOOL": "Divination",
+"CASTTIME": "1 Minute",
+"RANGE": "Touch",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "8 hours",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": "Single Target",
+"TAG": ["Buff"],
+"DESCRIPT": "You touch a willing creature. For the duration, the target can add 1d8 to its initiative rolls.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+GOODBERRY = {"NAME": "Goodberry",
+"LEVEL": 1,
+"SCHOOL": "Transmutation",
+"CASTTIME": "1 Action",
+"RANGE": "Touch",
+"COMP": [True, True, True],
+"MATERIALS": "a sprig of mistletoe",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "Instantaneous",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": None,
+"TAG": ["Healing"],
+"DESCRIPT": "Up to ten berries appear in your hand and are infused with magic for the duration. A creature can use its action to eat one berry. Eating a berry restores 1 hit point, and the berry provides enough nourishment to sustain a creature for one day.\nThe berries lose their potency if they have not been consumed within 24 hours of the casting of this spell.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+GREASE = {"NAME": "Grease",
+"LEVEL": 1,
+"SCHOOL": "Conjuration",
+"CASTTIME": "1 Action",
+"RANGE": "60 feet",
+"COMP": [True, True, True],
+"MATERIALS": "a bit of pork rind or butter",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "1 minute",
+"DAMAGETYPE": [],
+"COND": ["Prone"],
+"SPELLATTCK": "Save",
+"SAVETYPE": "DEX",
+"TARGETS": "Square",
+"TAG": ["Control"],
+"DESCRIPT": "Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration.\nWhen the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+GUIDINGBOLT = {"NAME": "Guiding Bolt",
+"LEVEL": 1,
+"SCHOOL": "Evocation",
+"CASTTIME": "1 Action",
+"RANGE": "120 feet",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "1 round",
+"DAMAGETYPE": ["Radiant"],
+"COND": [],
+"SPELLATTCK": "Ranged",
+"SAVETYPE": "",
+"TARGETS": "Single Target",
+"TAG": ["Damage", "Buff"],
+"DESCRIPT": "A flash of light streaks toward a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
 "REQSIGHT": False
 }
 
