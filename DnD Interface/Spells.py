@@ -1442,6 +1442,459 @@ ARMSOFHADAR = {"NAME": "Arms Of Hadar",
 "REQSIGHT": False
 }
 
+BANE = {"NAME": "Bane",
+"LEVEL": 1,
+"SCHOOL": "Enchantment",
+"CASTTIME": "1 Action",
+"RANGE": "30 feet",
+"COMP": [True, True, True],
+"MATERIALS": "a drop of blood",
+"RITUAL": False,
+"CONC": True,
+"DURATION": "Up to 1 minute",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": "Save",
+"SAVETYPE": "CHA",
+"TARGETS": "Multiple Targets",
+"TAG": ["Debuff"],
+"DESCRIPT": "Up to three creatures of your choice that you can see within range "
+            "must make Charisma saving throws. Whenever a target that fails this "
+            "saving throw makes an attack roll or a saving throw before the "
+            "spell ends, the target must roll a d4 and subtract the number "
+            "rolled from the attack roll or saving throw.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.",
+"REQSIGHT": True
+}
+
+BEASTBOND = {"NAME": "Beast Bond",
+"LEVEL": 1,
+"SCHOOL": "Divination",
+"CASTTIME": "1 Action",
+"RANGE": "Touch",
+"COMP": [True, True, True],
+"MATERIALS": "a bit of fur wrapped in a cloth",
+"RITUAL": False,
+"CONC": True,
+"DURATION": "up to 10 minute",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": "Single Target",
+"TAG": ["Communication", "Buff"],
+"DESCRIPT": "You establish a telepathic link with one beast you touch that is "
+            "friendly to you or charmed by you. The spell fails if the beast's "
+            "Intelligence score is 4 or higher. Until the spell ends, the link "
+            "is active while you and the beast are within line of sight of each "
+            "other. Through the link, the beast can understand your telepathic "
+            "messages to it, and it can telepathically communicate simple emotions "
+            "and concepts back to you. While the link is active, the beast gains "
+            "advantage on attack rolls against any creature within 5 feet of you "
+            "that you can see.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+BLESS = {"NAME": "Bless",
+"LEVEL": 1,
+"SCHOOL": "Enchantment",
+"CASTTIME": "1 Action",
+"RANGE": "30 feet",
+"COMP": [True, True, True],
+"MATERIALS": "a sprinkling of holy water",
+"RITUAL": False,
+"CONC": True,
+"DURATION": "Up to 1 minute",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": "Mulitple Targets",
+"TAG": ["Buff"],
+"DESCRIPT": "You bless up to three creatures of your choice within range. Whenever "
+            "a target makes an attack roll or a saving throw before the spell ends, "
+            "the target can roll a d4 and add the number rolled to the attack roll "
+            "or saving throw.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+BURNINGHANDS = {"NAME": "Burning Hands",
+"LEVEL": 1,
+"SCHOOL": "Evocation",
+"CASTTIME": "1 Action",
+"RANGE": "Self (15-foot cone)",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "Instantaneous",
+"DAMAGETYPE": ["Fire"],
+"COND": [],
+"SPELLATTCK": "Save",
+"SAVETYPE": "DEX",
+"TARGETS": "Cone",
+"TAG": ["Damage"],
+"DESCRIPT": "As you hold your hands with thumbs touching and fingers spread, a "
+            "thin sheet of flames shoots forth from your outstretched fingertips. "
+            "Each creature in a 15-foot cone must make a Dexterity saving throw. "
+            "A creature takes 3d6 fire damage on a failed save, or half as much "
+            "damage on a successful one.\nThe fire ignites any flammable objects "
+            "in the area that aren't being worn or carried.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+CATAPULT = {"NAME": "Catapult",
+"LEVEL": 1,
+"SCHOOL": "Transmutation",
+"CASTTIME": "1 Action",
+"RANGE": "60 feet",
+"COMP": [False, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "Instantaneous",
+"DAMAGETYPE": ["Bludgeoning"],
+"COND": [],
+"SPELLATTCK": "Save",
+"SAVETYPE": "DEX",
+"TARGETS": "Line",
+"TAG": ["Damage"],
+"DESCRIPT": "Choose one object weighing 1 to 5 pounds within range that isn't "
+            "being worn or carried. The object flies in a straight line up to 90 "
+            "feet in a direction you choose before falling to the ground, stopping "
+            "early if it impacts against a solid surface. If the object would "
+            "strike a creature, that creature must make a Dexterity saving throw. "
+            "On a failed save, the object strikes the target and stops moving. "
+            "When the object strikes something, the object and what it strikes "
+            "each take 3d8 bludgeoning damage.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, the maximum weight of objects that you can target with this spell increases by 5 pounds, and the damage increases by 1d8, for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+CAUSEFEAR = {"NAME": "Cause Fear",
+"LEVEL": 1,
+"SCHOOL": "Necromancy",
+"CASTTIME": "1 Action",
+"RANGE": "60 feet",
+"COMP": [True, False, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": True,
+"DURATION": "Up to 1 minute",
+"DAMAGETYPE": [],
+"COND": ["Frightened"],
+"SPELLATTCK": "Save",
+"SAVETYPE": "WIS",
+"TARGETS": "Single Target",
+"TAG": ["Damage"],
+"DESCRIPT": "You awaken the sense of mortality in one creature you can see within "
+            "range. A construct or an undead is immune to this effect. The target "
+            "must succeed on a Wisdom saving throw or become frightened of you until "
+            "the spell ends. The frightened target can repeat the saving throw at "
+            "the end of each of its turns, ending the effect on itself on a success.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.",
+"REQSIGHT": True
+}
+
+CEREMONY = {"NAME": "Ceremony",
+"LEVEL": 1,
+"SCHOOL": "Abjuration",
+"CASTTIME": "1 Hour",
+"RANGE": "Touch",
+"COMP": [True, True, True],
+"MATERIALS": "25 gp worth of powdered silver, which the spell consumes",
+"RITUAL": True,
+"CONC": False,
+"DURATION": "Instantaneous",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": "Single Target",
+"TAG": ["Buff"],
+"DESCRIPT": "You perform a special religious ceremony that is infused with magic. "
+            "When you cast the spell, choose one of the following rites, the target "
+            "of which must be within 10 feet of you throughout the casting.\n"
+            "Atonement. You touch one willing creature whose alignment has changed, "
+            "and you make a DC 20 Wisdom (Insight) check. On a successful check, "
+            "you restore the target to its original alignment.\nBless Water. You "
+            "touch one vial of water and cause it to become holy water.\nComing "
+            "of Age. You touch one humanoid who is a young adult. For the next 24 "
+            "hours, whenever the target makes an ability check, it can roll a d4 "
+            "and add the number rolled to the ability check. A creature can benefit "
+            "from this rite only once.\nDedication. You touch one humanoid who "
+            "wishes to be dedicated to your god's service. For the next 24 hours, "
+            "whenever the target makes a saving throw, it can roll a d4 and add the "
+            "number rolled to the save. A creature can benefit from this rite "
+            "only once.\nFuneral Rite. You touch one corpse, and for the next 7 "
+            "days, the target can't become undead by any means short of a wish "
+            "spell.\nWedding. You touch adult humanoids willing to be bonded "
+            "together in marriage. For the next 7 days, each target gains a +2 "
+            "bonus to AC while they are within 30 feet of each other. A creature "
+            "can benefit from this rite again only if widowed.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+CHAOSBOLT = {"NAME": "Chaos Bolt",
+"LEVEL": 1,
+"SCHOOL": "Evocation",
+"CASTTIME": "1 Action",
+"RANGE": "120 feet",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "Instantaneous",
+"DAMAGETYPE": ["Fire", "Acid", "Cold", "Force", "Lightning", "Poison", "Psychic", "Thunder"],
+"COND": [],
+"SPELLATTCK": "Ranged",
+"SAVETYPE": "",
+"TARGETS": "Single Target",
+"TAG": ["Damage"],
+"DESCRIPT": "You hurl an undulating, warbling mass of chaotic energy at one creature "
+            "in range. Make a ranged spell attack against the target. On a hit, "
+            "the target takes 2d8 + 1d6 damage. Choose one of the d8s. The number "
+            "rolled on that die determines the attack's damage type, as shown below."
+            "\nChaos Bolt\nd8	Damage Type\n1	Acid\n2	Cold\n3	Fire\n4	Force\n"
+            "5	Lightning\n6	Poison\n7	Psychic\n8	Thunder\nIf you roll the "
+            "same number on both d8s, the chaotic energy leaps from the target "
+            "to a different creature of your choice within 30 feet of it. Make "
+            "a new attack roll against the new target, and make a new damage "
+            "roll, which could cause the chaotic energy to leap again.\nA creature "
+            "can be targeted only once by each casting of this spell.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+CHARMPERSON = {"NAME": "Charm Person",
+"LEVEL": 1,
+"SCHOOL": "Enchantment",
+"CASTTIME": "1 Action",
+"RANGE": "30 feet",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "1 hour",
+"DAMAGETYPE": [],
+"COND": ["Charmed"],
+"SPELLATTCK": "Save",
+"SAVETYPE": "WIS",
+"TARGETS": "Single Target",
+"TAG": ["Control", "Deception", "Social"],
+"DESCRIPT": "You attempt to charm a humanoid you can see within range. It must "
+            "make a Wisdom saving throw, and does so with advantage if you or "
+            "your companions are fighting it. If it fails the saving throw, it is "
+            "charmed by you until the spell ends or until you or your companions "
+            "do anything harmful to it. The charmed creature regards you as a "
+            "friendly acquaintance. When the spell ends, the creature knows it "
+            "was charmed by you.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.",
+"REQSIGHT": True
+}
+
+CHROMATICORB = {"NAME": "Chromatic Orb",
+"LEVEL": 1,
+"SCHOOL": "Evocation",
+"CASTTIME": "1 Action",
+"RANGE": "90 feet",
+"COMP": [True, True, True],
+"MATERIALS": "a diamond worth at least 50 gp",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "Instantaneous",
+"DAMAGETYPE": ["Acid", "Cold", "Fire", "Lightning", "Poison", "Thunder"],
+"COND": [],
+"SPELLATTCK": "Ranged",
+"SAVETYPE": "",
+"TARGETS": "Single Target",
+"TAG": ["Damage"],
+"DESCRIPT": "You hurl a 4-inch-diameter sphere of energy at a creature that you "
+            "can see within range. You choose acid, cold, fire, lightning, poison, "
+            "or thunder for the type of orb you create, and then make a ranged spell "
+            "attack against the target. If the attack hits, the creature takes 3d8 "
+            "damage of the type you chose.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.",
+"REQSIGHT": True
+}
+
+COLORSPRAY = {"NAME": "Color Spray",
+"LEVEL": 1,
+"SCHOOL": "Illusion",
+"CASTTIME": "1 Action",
+"RANGE": "Self (15-foot cone)",
+"COMP": [True, True, True],
+"MATERIALS": "a pinch of powder or sand that is colored red, yellow, and blue",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "1 Round",
+"DAMAGETYPE": [],
+"COND": ["Blinded"],
+"SPELLATTCK": "Other",
+"SAVETYPE": "",
+"TARGETS": "Cone",
+"TAG": ["Control", "Combat"],
+"DESCRIPT": "A dazzling array of flashing, colored light springs from your hand. "
+            "Roll 6d10; the total is how many hit points of creatures this spell "
+            "can effect. Creatures in a 15-foot cone originating from you are "
+            "affected in ascending order of their current hit points (ignoring "
+            "unconscious creatures and creatures that can't see).\nStarting with "
+            "the creature that has the lowest current hit points, each creature "
+            "affected by this spell is blinded until the end of your next turn. "
+            "Subtract each creature's hit points from the total before moving on "
+            "to the creature with the next lowest hit points. A creature's hit "
+            "points must be equal to or less than the remaining total for that "
+            "creature to be affected.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d10 for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+COMMAND = {"NAME": "Command",
+"LEVEL": 1,
+"SCHOOL": "Enchantment",
+"CASTTIME": "1 Action",
+"RANGE": "60 feet",
+"COMP": [True, False, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "1 Round",
+"DAMAGETYPE": [],
+"COND": ["Prone"],
+"SPELLATTCK": "Save",
+"SAVETYPE": "WIS",
+"TARGETS": "Single Target",
+"TAG": ["Control"],
+"DESCRIPT": "You speak a one-word command to a creature you can see within range. "
+            "The target must succeed on a Wisdom saving throw or follow the command "
+            "on its next turn. The spell has no effect if the target is undead, "
+            "if it doesn't understand your language, or if your command is directly "
+            "harmful to it.\nSome typical commands and their effects follow. You "
+            "might issue a command other than one described here. If you do so, "
+            "the DM determines how the target behaves. If the target can't follow "
+            "your command, the spell ends.\nApproach. The target moves toward you "
+            "by the shortest and most direct route, ending its turn if it moves "
+            "within 5 feet of you.\nDrop. The target drops whatever it is holding "
+            "and then ends its turn.\nFlee. The target spends its turn moving away "
+            "from you by the fastest available means.\nGrovel. The target falls "
+            "prone and then ends its turn.\nHalt. The target doesn't move and "
+            "takes no actions. A flying creature stays aloft, provided that it is "
+            "able to do so. If it must move to stay aloft, it flies the minimum "
+            "distance needed to remain in the air.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, you can affect one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.",
+"REQSIGHT": True
+}
+
+COMPELLEDDUEL = {"NAME": "Compelled Duel",
+"LEVEL": 1,
+"SCHOOL": "Enchantment",
+"CASTTIME": "1 Bonus Action",
+"RANGE": "30 feet",
+"COMP": [True, False, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": True,
+"DURATION": "Up to 1 minute",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": "Save",
+"SAVETYPE": "WIS",
+"TARGETS": "Single Target",
+"TAG": ["Control", "Combat"],
+"DESCRIPT": "You attempt to compel a creature into a duel. One creature that you "
+            "can see within range must make a Wisdom saving throw. On a failed save, "
+            "the creature is drawn to you, compelled by your divine demand. For "
+            "the duration, it has disadvantage on attack rolls against creatures "
+            "other than you, and must make a Wisdom saving throw each time it "
+            "attempts to move to a space that is more than 30 feet away from you; "
+            "if it succeeds on this saving throw, this spell doesn't restrict the "
+            "target's movement for that turn.\nThe spell ends if you attack any "
+            "other creature, if you cast a spell that targets a hostile creature "
+            "other than the target, if a creature friendly to you damages the target "
+            "or casts a harmful spell on it, or if you end your turn more than 30 "
+            "feet away from the target.",
+"HIGHERLEVEL": "",
+"REQSIGHT": True
+}
+
+COMPREHENDLANGUAGES = {"NAME": "Comprehend Languagues",
+"LEVEL": 1,
+"SCHOOL": "Divination",
+"CASTTIME": "1 Action",
+"RANGE": "Self",
+"COMP": [True, True, True],
+"MATERIALS": "a pinch of soot and salt",
+"RITUAL": True,
+"CONC": False,
+    "DURATION": "1 hour",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": None,
+"TAG": ["Utility"],
+"DESCRIPT": "For the duration, you understand the literal meaning of any spoken "
+            "language that you hear. You also understand any written language "
+            "that you see, but you must be touching the surface on which the words "
+            "are written. It takes about 1 minute to read one page of text.\nThis "
+            "spell doesn't decode secret messages in a text or a glyph, such as "
+            "an arcane sigil, that isn't part of a written language.",
+"HIGHERLEVEL": "",
+"REQSIGHT": False
+}
+
+CREATEORDESTROYWATER = {"NAME": "Create Or Destroy Water",
+"LEVEL": 1,
+"SCHOOL": "Transmutation",
+"CASTTIME": "1 Action",
+"RANGE": "30 feet",
+"COMP": [True, True, True],
+"MATERIALS": "a drop of water if creating water or a few grains of sand if destroying it",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "Instantaneous",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": None,
+"TAG": ["Utility", "Environment"],
+"DESCRIPT": "You either create or destroy water.\nCreate Water. You create up to "
+            "10 gallons of clean water within range in an open container. "
+            "Alternatively, the water falls as rain in a 30-foot cube within range, "
+            "extinguishing exposed flames in the area.\nDestroy Water. You destroy "
+            "up to 10 gallons of water in an open container within range. "
+            "Alternatively, you destroy fog in a 30-foot cube within range.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, you create or destroy 10 additional gallons of water, or the size of the cube increases by 5 feet, for each slot level above 1st.",
+"REQSIGHT": False
+}
+
+CUREWOUNDS = {"NAME": "Cure Wounds",
+"LEVEL": 1,
+"SCHOOL": "Evocation",
+"CASTTIME": "1 Action",
+"RANGE": "Touch",
+"COMP": [True, True, False],
+"MATERIALS": "",
+"RITUAL": False,
+"CONC": False,
+"DURATION": "Instantaneous",
+"DAMAGETYPE": [],
+"COND": [],
+"SPELLATTCK": None,
+"SAVETYPE": "",
+"TARGETS": "Single Target",
+"TAG": ["Healing"],
+"DESCRIPT": "A creature you touch regains a number of hit points equal to 1d8 + "
+            "your spellcasting ability modifier. This spell has no effect on "
+            "undead or constructs.",
+"HIGHERLEVEL": "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.",
+"REQSIGHT": False
+}
 
 SPELLLIST = []
 
