@@ -11,13 +11,7 @@ class ClassParent:
     otherprofs = []     # weapon and armor proficiencies
 
     def __init__(self):
-        self.saves = saves
-        self.hitdie = hitdie
-        self.toolprofs = toolprofs
-        self.toolchoose = toolchoose
-        self.skillsinfo = skillsinfo
-        self.skillschoose = skillschoose
-        self.otherprofs = otherprofs
+        return 0
 
     def getSaves(self):
         return self.saves
