@@ -10,15 +10,14 @@ class ClassParent:
                         # 1st el is list of the choices
     otherprofs = []     # weapon and armor proficiencies
 
-    # Abilities = {lvl: {'ability name': 'ability description'}} (ability list)
-    # Multiclassing = [0, 0, 0, 0, 0, 1] (0's where doesn't matter, 1's where
-    #            a 13 is required)
-    # Subclass = 'File Name' (Name of subclass file)
+    abilities = {}      # Abilities = {lvl: {'ability name': 'ability description'}} (ability list)
+    multiclassing = [0, 0, 0, 0, 0, 0]      # Multiclassing = [0, 0, 0, 0, 0, 1] (0's where doesn't matter, 1's where
+                                            #            a 13 is required)
+    subclass = ''       # Subclass = 'File Name' (Name of subclass file)
+    mc = False
 
-    def __init__(self): # def __init__(self, mc): - mc is boolean where False is
-                        # if class is original class and True is if class is
-                        # a multiclass
-        return 0
+    def __init__(self, mc):
+        self.mc = mc
 
     def getSaves(self):
         return self.saves
@@ -33,13 +32,22 @@ class ClassParent:
         return self.toolchoose
 
     def getSkillInfo(self):
-        return self.skillinfo
+        return self.skillsinfo
 
     def getSkillsChoose(self):
         return self.skillschoose
 
     def getOtherProfs(self):
         return self.otherprofs
+
+    def getAbilities(self):
+        return self.abilities
+
+    def getMulticlassing(self):
+        return self.multiclassing
+
+    def getSubclass(self):
+        return self.subclass
 
     def setSaves(self, newsaves):
         self.saves = newsaves
@@ -61,3 +69,12 @@ class ClassParent:
 
     def setOtherProfs(self, newother):
         self.otherprofs = newother
+
+    def setAbilities(self, newabs):
+        self.abilities = newabs
+
+    def setMulticlassing(self, newmc):
+        self.multiclassing = newmc
+
+    def setSubclass(self, newsubclass):
+        self.subclass = newsubclass
